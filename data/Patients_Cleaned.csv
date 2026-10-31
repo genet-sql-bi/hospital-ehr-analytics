@@ -1,0 +1,1001 @@
+PatientID,PatientName,Gender,DOB,Age,BloodGroup,Phone,Email,City,Insurance,InsuranceProvider,CalculatedAge,AgeMismatch
+1,Patient 1,Male,1936-06-27 00:00:00,90,A+,602-555-2001,patient1@mail.com,Phoenix,Yes,Medicare,90,FALSE
+2,Patient 2,Female,1994-07-03 00:00:00,32,A+,212-555-2002,patient2@mail.com,New York,Yes,Blue Cross,32,FALSE
+3,Patient 3,Male,1967-02-13 00:00:00,59,A+,312-555-2003,patient3@mail.com,Chicago,Yes,Blue Cross,59,FALSE
+4,Patient 4,Female,2006-07-24 00:00:00,20,A-,602-555-2004,patient4@mail.com,Phoenix,Yes,Cigna,20,FALSE
+5,Patient 5,Male,2011-05-09 00:00:00,15,O+,602-555-2005,patient5@mail.com,Phoenix,Yes,UnitedHealthcare,15,FALSE
+6,Patient 6,Female,1972-04-26 00:00:00,54,O+,312-555-2006,patient6@mail.com,Chicago,Yes,Cigna,54,FALSE
+7,Patient 7,Female,2018-10-31 00:00:00,7,O+,602-555-2007,patient7@mail.com,Phoenix,Yes,Medicaid,7,FALSE
+8,Patient 8,Female,2014-04-27 00:00:00,12,AB-,213-555-2008,patient8@mail.com,Los Angeles,Yes,UnitedHealthcare,12,FALSE
+9,Patient 9,Male,1976-07-06 00:00:00,50,O+,602-555-2009,patient9@mail.com,Phoenix,Yes,Aetna,50,FALSE
+10,Patient 10,Male,1975-06-25 00:00:00,51,O+,619-555-2010,patient10@mail.com,San Diego,Yes,Cigna,51,FALSE
+11,Patient 11,Male,1945-03-07 00:00:00,81,A+,619-555-2011,patient11@mail.com,San Diego,Yes,Medicare,81,FALSE
+12,Patient 12,Male,2025-09-12 00:00:00,1,B+,312-555-2012,patient12@mail.com,Chicago,Yes,UnitedHealthcare,1,FALSE
+13,Patient 13,Male,1975-04-30 00:00:00,51,O+,212-555-2013,patient13@mail.com,New York,Yes,UnitedHealthcare,51,FALSE
+14,Patient 14,Female,2007-10-13 00:00:00,18,O+,312-555-2014,patient14@mail.com,Chicago,Yes,Medicaid,18,FALSE
+15,Patient 15,Male,1987-03-26 00:00:00,39,A+,602-555-2015,patient15@mail.com,Phoenix,Yes,UnitedHealthcare,39,FALSE
+16,Patient 16,Female,1949-04-17 00:00:00,77,A+,213-555-2016,patient16@mail.com,Los Angeles,Yes,Medicare,77,FALSE
+17,Patient 17,Male,1982-12-09 00:00:00,43,A+,312-555-2017,patient17@mail.com,Chicago,Yes,Blue Cross,43,FALSE
+18,Patient 18,Female,1970-02-18 00:00:00,56,B+,213-555-2018,patient18@mail.com,Los Angeles,Yes,Cigna,56,FALSE
+19,Patient 19,Male,1948-01-26 00:00:00,78,O+,602-555-2019,patient19@mail.com,Phoenix,Yes,Medicare,78,FALSE
+20,Patient 20,Female,1997-08-05 00:00:00,29,A+,213-555-2020,patient20@mail.com,Los Angeles,Yes,Cigna,29,FALSE
+21,Patient 21,Female,2018-09-05 00:00:00,8,O+,602-555-2021,patient21@mail.com,Phoenix,Yes,Medicaid,8,FALSE
+22,Patient 22,Female,1982-08-12 00:00:00,44,A+,602-555-2022,patient22@mail.com,Phoenix,No,Self-Pay,44,FALSE
+23,Patient 23,Female,2013-04-11 00:00:00,13,A+,212-555-2023,patient23@mail.com,New York,Yes,Medicaid,13,FALSE
+24,Patient 24,Female,1984-07-14 00:00:00,42,A+,602-555-2024,patient24@mail.com,Phoenix,Yes,UnitedHealthcare,42,FALSE
+25,Patient 25,Female,1990-03-30 00:00:00,36,A+,602-555-2025,patient25@mail.com,Phoenix,Yes,UnitedHealthcare,36,FALSE
+26,Patient 26,Female,2013-11-03 00:00:00,12,O+,602-555-2026,patient26@mail.com,Phoenix,Yes,Medicaid,12,FALSE
+27,Patient 27,Male,1976-08-11 00:00:00,50,B-,602-555-2027,patient27@mail.com,Phoenix,No,Self-Pay,50,FALSE
+28,Patient 28,Female,1960-09-05 00:00:00,66,B+,602-555-2028,patient28@mail.com,Phoenix,Yes,Medicare,66,FALSE
+29,Patient 29,Male,1986-06-24 00:00:00,40,O+,602-555-2029,patient29@mail.com,Phoenix,Yes,Blue Cross,40,FALSE
+30,Patient 30,Male,1965-11-12 00:00:00,60,B+,602-555-2030,patient30@mail.com,Phoenix,Yes,Medicaid,60,FALSE
+31,Patient 31,Female,1941-06-04 00:00:00,85,A+,212-555-2031,patient31@mail.com,New York,Yes,Medicare,85,FALSE
+32,Patient 32,Female,1955-07-24 00:00:00,71,O-,602-555-2032,patient32@mail.com,Phoenix,Yes,Medicare,71,FALSE
+33,Patient 33,Male,2008-04-23 00:00:00,18,B+,602-555-2033,patient33@mail.com,Phoenix,No,Self-Pay,18,FALSE
+34,Patient 34,Female,1976-11-12 00:00:00,49,A+,312-555-2034,patient34@mail.com,Chicago,Yes,Aetna,49,FALSE
+35,Patient 35,Male,1999-10-21 00:00:00,26,B+,312-555-2035,patient35@mail.com,Chicago,Yes,Aetna,26,FALSE
+36,Patient 36,Male,1970-06-27 00:00:00,56,B+,213-555-2036,patient36@mail.com,Los Angeles,Yes,Blue Cross,56,FALSE
+37,Patient 37,Male,1963-03-16 00:00:00,63,B-,602-555-2037,patient37@mail.com,Phoenix,No,Self-Pay,63,FALSE
+38,Patient 38,Female,1976-09-29 00:00:00,50,O+,619-555-2038,patient38@mail.com,San Diego,Yes,Medicaid,50,FALSE
+39,Patient 39,Female,2012-12-24 00:00:00,13,O-,602-555-2039,patient39@mail.com,Phoenix,Yes,Medicaid,13,FALSE
+40,Patient 40,Female,2026-04-05 00:00:00,0,A+,213-555-2040,patient40@mail.com,Los Angeles,Yes,Aetna,0,FALSE
+41,Patient 41,Male,1968-07-16 00:00:00,58,O+,212-555-2041,patient41@mail.com,New York,Yes,Blue Cross,58,FALSE
+42,Patient 42,Male,1991-08-30 00:00:00,35,A+,602-555-2042,patient42@mail.com,Phoenix,Yes,Aetna,35,FALSE
+43,Patient 43,Female,2012-06-19 00:00:00,14,AB+,619-555-2043,patient43@mail.com,San Diego,Yes,Aetna,14,FALSE
+44,Patient 44,Male,1981-05-13 00:00:00,45,B+,213-555-2044,patient44@mail.com,Los Angeles,Yes,Medicaid,45,FALSE
+45,Patient 45,Female,1983-08-19 00:00:00,43,O+,212-555-2045,patient45@mail.com,New York,Yes,Aetna,43,FALSE
+46,Patient 46,Male,1951-09-03 00:00:00,75,O+,619-555-2046,patient46@mail.com,San Diego,Yes,Medicare,75,FALSE
+47,Patient 47,Male,1982-09-23 00:00:00,44,B+,212-555-2047,patient47@mail.com,New York,No,Self-Pay,44,FALSE
+48,Patient 48,Female,1967-10-22 00:00:00,58,O-,213-555-2048,patient48@mail.com,Los Angeles,Yes,UnitedHealthcare,58,FALSE
+49,Patient 49,Male,1994-05-30 00:00:00,32,O-,212-555-2049,patient49@mail.com,New York,Yes,Aetna,32,FALSE
+50,Patient 50,Male,2001-01-09 00:00:00,25,O+,602-555-2050,patient50@mail.com,Phoenix,Yes,Cigna,25,FALSE
+51,Patient 51,Male,1993-07-24 00:00:00,33,A+,213-555-2051,patient51@mail.com,Los Angeles,Yes,Cigna,33,FALSE
+52,Patient 52,Female,1963-04-29 00:00:00,63,B-,212-555-2052,patient52@mail.com,New York,Yes,Blue Cross,63,FALSE
+53,Patient 53,Female,2008-03-05 00:00:00,18,A+,213-555-2053,patient53@mail.com,Los Angeles,Yes,Aetna,18,FALSE
+54,Patient 54,Male,1944-04-23 00:00:00,82,AB-,212-555-2054,patient54@mail.com,New York,Yes,Medicare,82,FALSE
+55,Patient 55,Female,1957-11-08 00:00:00,68,O+,312-555-2055,patient55@mail.com,Chicago,Yes,Medicare,68,FALSE
+56,Patient 56,Male,1948-01-25 00:00:00,78,O+,213-555-2056,patient56@mail.com,Los Angeles,Yes,Medicare,78,FALSE
+57,Patient 57,Male,1955-08-15 00:00:00,71,O+,212-555-2057,patient57@mail.com,New York,Yes,Medicare,71,FALSE
+58,Patient 58,Male,1980-07-14 00:00:00,46,A+,212-555-2058,patient58@mail.com,New York,No,Self-Pay,46,FALSE
+59,Patient 59,Female,1978-08-07 00:00:00,48,O+,312-555-2059,patient59@mail.com,Chicago,No,Self-Pay,48,FALSE
+60,Patient 60,Male,1938-03-15 00:00:00,88,A+,312-555-2060,patient60@mail.com,Chicago,Yes,Medicare,88,FALSE
+61,Patient 61,Male,2013-03-13 00:00:00,13,A+,213-555-2061,patient61@mail.com,Los Angeles,Yes,UnitedHealthcare,13,FALSE
+62,Patient 62,Female,1985-10-13 00:00:00,40,A-,213-555-2062,patient62@mail.com,Los Angeles,Yes,Medicaid,40,FALSE
+63,Patient 63,Male,1993-06-20 00:00:00,33,O+,312-555-2063,patient63@mail.com,Chicago,Yes,Blue Cross,33,FALSE
+64,Patient 64,Male,1964-01-16 00:00:00,62,A+,619-555-2064,patient64@mail.com,San Diego,Yes,UnitedHealthcare,62,FALSE
+65,Patient 65,Female,1972-01-23 00:00:00,54,A+,213-555-2065,patient65@mail.com,Los Angeles,Yes,UnitedHealthcare,54,FALSE
+66,Patient 66,Female,1970-10-07 00:00:00,55,O+,213-555-2066,patient66@mail.com,Los Angeles,Yes,Aetna,55,FALSE
+67,Patient 67,Male,2021-11-02 00:00:00,4,O+,212-555-2067,patient67@mail.com,New York,Yes,Blue Cross,4,FALSE
+68,Patient 68,Male,1950-02-11 00:00:00,76,O+,212-555-2068,patient68@mail.com,New York,Yes,Medicare,76,FALSE
+69,Patient 69,Male,1974-12-21 00:00:00,51,B+,213-555-2069,patient69@mail.com,Los Angeles,No,Self-Pay,51,FALSE
+70,Patient 70,Male,1975-07-18 00:00:00,51,O-,602-555-2070,patient70@mail.com,Phoenix,Yes,Aetna,51,FALSE
+71,Patient 71,Female,2021-04-19 00:00:00,5,O+,602-555-2071,patient71@mail.com,Phoenix,Yes,Medicaid,5,FALSE
+72,Patient 72,Male,2000-10-31 00:00:00,25,O+,619-555-2072,patient72@mail.com,San Diego,Yes,Medicaid,25,FALSE
+73,Patient 73,Female,1950-04-18 00:00:00,76,B+,312-555-2073,patient73@mail.com,Chicago,Yes,Medicare,76,FALSE
+74,Patient 74,Male,1954-05-03 00:00:00,72,A+,213-555-2074,patient74@mail.com,Los Angeles,Yes,Medicare,72,FALSE
+75,Patient 75,Female,1993-08-08 00:00:00,33,O+,619-555-2075,patient75@mail.com,San Diego,Yes,Aetna,33,FALSE
+76,Patient 76,Male,2018-12-24 00:00:00,7,A+,212-555-2076,patient76@mail.com,New York,Yes,Blue Cross,7,FALSE
+77,Patient 77,Female,1951-04-03 00:00:00,75,O+,213-555-2077,patient77@mail.com,Los Angeles,Yes,Medicare,75,FALSE
+78,Patient 78,Male,1942-09-20 00:00:00,84,A+,212-555-2078,patient78@mail.com,New York,Yes,Medicare,84,FALSE
+79,Patient 79,Male,1988-10-26 00:00:00,37,O-,212-555-2079,patient79@mail.com,New York,Yes,Aetna,37,FALSE
+80,Patient 80,Male,1986-09-22 00:00:00,40,A+,312-555-2080,patient80@mail.com,Chicago,Yes,Blue Cross,40,FALSE
+81,Patient 81,Female,1998-04-26 00:00:00,28,A-,602-555-2081,patient81@mail.com,Phoenix,Yes,Medicaid,28,FALSE
+82,Patient 82,Female,1974-11-06 00:00:00,51,O+,212-555-2082,patient82@mail.com,New York,Yes,Aetna,51,FALSE
+83,Patient 83,Female,2006-02-10 00:00:00,20,O-,213-555-2083,patient83@mail.com,Los Angeles,Yes,Blue Cross,20,FALSE
+84,Patient 84,Male,1942-09-12 00:00:00,84,AB-,212-555-2084,patient84@mail.com,New York,Yes,Medicare,84,FALSE
+85,Patient 85,Male,2023-04-14 00:00:00,3,A+,312-555-2085,patient85@mail.com,Chicago,Yes,UnitedHealthcare,3,FALSE
+86,Patient 86,Female,1991-08-24 00:00:00,35,A+,213-555-2086,patient86@mail.com,Los Angeles,Yes,Aetna,35,FALSE
+87,Patient 87,Female,1966-01-22 00:00:00,60,O+,213-555-2087,patient87@mail.com,Los Angeles,Yes,Blue Cross,60,FALSE
+88,Patient 88,Male,1998-08-08 00:00:00,28,A-,602-555-2088,patient88@mail.com,Phoenix,Yes,Blue Cross,28,FALSE
+89,Patient 89,Male,1962-02-19 00:00:00,64,O+,213-555-2089,patient89@mail.com,Los Angeles,No,Self-Pay,64,FALSE
+90,Patient 90,Male,1965-04-17 00:00:00,61,O+,312-555-2090,patient90@mail.com,Chicago,Yes,Medicaid,61,FALSE
+91,Patient 91,Female,2020-07-15 00:00:00,6,O+,619-555-2091,patient91@mail.com,San Diego,No,Self-Pay,6,FALSE
+92,Patient 92,Male,1955-03-26 00:00:00,71,O-,619-555-2092,patient92@mail.com,San Diego,Yes,Medicare,71,FALSE
+93,Patient 93,Male,2003-09-12 00:00:00,23,O+,312-555-2093,patient93@mail.com,Chicago,Yes,Blue Cross,23,FALSE
+94,Patient 94,Male,1973-07-27 00:00:00,53,AB-,212-555-2094,patient94@mail.com,New York,Yes,Aetna,53,FALSE
+95,Patient 95,Female,2016-11-14 00:00:00,9,B+,213-555-2095,patient95@mail.com,Los Angeles,Yes,Aetna,9,FALSE
+96,Patient 96,Male,1998-09-21 00:00:00,28,A-,619-555-2096,patient96@mail.com,San Diego,Yes,Cigna,28,FALSE
+97,Patient 97,Male,1966-10-19 00:00:00,59,B+,619-555-2097,patient97@mail.com,San Diego,Yes,Blue Cross,59,FALSE
+98,Patient 98,Male,1944-12-17 00:00:00,81,B+,619-555-2098,patient98@mail.com,San Diego,Yes,Medicare,81,FALSE
+99,Patient 99,Male,1965-07-05 00:00:00,61,O+,213-555-2099,patient99@mail.com,Los Angeles,Yes,Medicaid,61,FALSE
+100,Patient 100,Female,2020-10-10 00:00:00,5,O+,212-555-2100,patient100@mail.com,New York,Yes,Aetna,5,FALSE
+101,Patient 101,Female,1997-07-04 00:00:00,29,O+,602-555-2101,patient101@mail.com,Phoenix,Yes,Aetna,29,FALSE
+102,Patient 102,Male,2000-10-26 00:00:00,25,A+,213-555-2102,patient102@mail.com,Los Angeles,Yes,Cigna,25,FALSE
+103,Patient 103,Male,1993-01-20 00:00:00,33,A+,212-555-2103,patient103@mail.com,New York,Yes,Medicaid,33,FALSE
+104,Patient 104,Male,1976-09-18 00:00:00,50,A+,312-555-2104,patient104@mail.com,Chicago,Yes,Aetna,50,FALSE
+105,Patient 105,Male,2014-01-04 00:00:00,12,B-,213-555-2105,patient105@mail.com,Los Angeles,Yes,Blue Cross,12,FALSE
+106,Patient 106,Female,1995-12-16 00:00:00,30,A+,312-555-2106,patient106@mail.com,Chicago,Yes,Cigna,30,FALSE
+107,Patient 107,Male,1968-03-23 00:00:00,58,B+,619-555-2107,patient107@mail.com,San Diego,Yes,Aetna,58,FALSE
+108,Patient 108,Female,2025-04-09 00:00:00,1,A+,212-555-2108,patient108@mail.com,New York,Yes,Medicaid,1,FALSE
+109,Patient 109,Female,1940-08-07 00:00:00,86,B+,602-555-2109,patient109@mail.com,Phoenix,Yes,Medicare,86,FALSE
+110,Patient 110,Female,2006-08-19 00:00:00,20,A+,312-555-2110,patient110@mail.com,Chicago,Yes,Aetna,20,FALSE
+111,Patient 111,Female,1946-05-13 00:00:00,80,A+,619-555-2111,patient111@mail.com,San Diego,Yes,Medicare,80,FALSE
+112,Patient 112,Male,1972-12-12 00:00:00,53,O+,212-555-2112,patient112@mail.com,New York,Yes,Aetna,53,FALSE
+113,Patient 113,Male,2004-02-19 00:00:00,22,A+,213-555-2113,patient113@mail.com,Los Angeles,Yes,UnitedHealthcare,22,FALSE
+114,Patient 114,Male,1944-08-11 00:00:00,82,O+,212-555-2114,patient114@mail.com,New York,Yes,Medicare,82,FALSE
+115,Patient 115,Female,1987-10-09 00:00:00,38,O+,312-555-2115,patient115@mail.com,Chicago,Yes,Aetna,38,FALSE
+116,Patient 116,Female,1962-10-02 00:00:00,63,O+,212-555-2116,patient116@mail.com,New York,Yes,UnitedHealthcare,63,FALSE
+117,Patient 117,Female,2001-01-09 00:00:00,25,B+,602-555-2117,patient117@mail.com,Phoenix,Yes,Cigna,25,FALSE
+118,Patient 118,Male,1951-05-02 00:00:00,75,O+,212-555-2118,patient118@mail.com,New York,Yes,Medicare,75,FALSE
+119,Patient 119,Male,2004-09-27 00:00:00,22,B+,213-555-2119,patient119@mail.com,Los Angeles,Yes,Aetna,22,FALSE
+120,Patient 120,Male,2000-11-30 00:00:00,25,O+,602-555-2120,patient120@mail.com,Phoenix,Yes,Aetna,25,FALSE
+121,Patient 121,Female,1942-10-31 00:00:00,83,O+,619-555-2121,patient121@mail.com,San Diego,Yes,Medicare,83,FALSE
+122,Patient 122,Male,1974-03-15 00:00:00,52,O+,213-555-2122,patient122@mail.com,Los Angeles,Yes,Cigna,52,FALSE
+123,Patient 123,Female,1942-12-28 00:00:00,83,O-,619-555-2123,patient123@mail.com,San Diego,Yes,Medicare,83,FALSE
+124,Patient 124,Male,1998-05-21 00:00:00,28,O-,619-555-2124,patient124@mail.com,San Diego,No,Self-Pay,28,FALSE
+125,Patient 125,Male,2019-06-08 00:00:00,7,O+,312-555-2125,patient125@mail.com,Chicago,Yes,Medicaid,7,FALSE
+126,Patient 126,Female,1979-11-30 00:00:00,46,O+,602-555-2126,patient126@mail.com,Phoenix,No,Self-Pay,46,FALSE
+127,Patient 127,Male,1945-06-07 00:00:00,81,O+,312-555-2127,patient127@mail.com,Chicago,Yes,Medicare,81,FALSE
+128,Patient 128,Female,1982-10-22 00:00:00,43,O+,619-555-2128,patient128@mail.com,San Diego,No,Self-Pay,43,FALSE
+129,Patient 129,Male,1958-04-08 00:00:00,68,A+,312-555-2129,patient129@mail.com,Chicago,Yes,Medicare,68,FALSE
+130,Patient 130,Male,2006-08-05 00:00:00,20,O-,602-555-2130,patient130@mail.com,Phoenix,Yes,Aetna,20,FALSE
+131,Patient 131,Male,2012-01-03 00:00:00,14,A+,602-555-2131,patient131@mail.com,Phoenix,Yes,Cigna,14,FALSE
+132,Patient 132,Female,1983-01-31 00:00:00,43,A+,602-555-2132,patient132@mail.com,Phoenix,Yes,UnitedHealthcare,43,FALSE
+133,Patient 133,Male,1965-04-29 00:00:00,61,A+,602-555-2133,patient133@mail.com,Phoenix,Yes,Blue Cross,61,FALSE
+134,Patient 134,Female,1985-04-05 00:00:00,41,O+,312-555-2134,patient134@mail.com,Chicago,No,Self-Pay,41,FALSE
+135,Patient 135,Male,2017-05-22 00:00:00,9,O+,602-555-2135,patient135@mail.com,Phoenix,Yes,Medicaid,9,FALSE
+136,Patient 136,Female,1976-01-09 00:00:00,50,O+,212-555-2136,patient136@mail.com,New York,No,Self-Pay,50,FALSE
+137,Patient 137,Male,2004-01-05 00:00:00,22,O-,619-555-2137,patient137@mail.com,San Diego,Yes,UnitedHealthcare,22,FALSE
+138,Patient 138,Male,1987-10-16 00:00:00,38,A+,619-555-2138,patient138@mail.com,San Diego,No,Self-Pay,38,FALSE
+139,Patient 139,Male,1969-12-24 00:00:00,56,A+,213-555-2139,patient139@mail.com,Los Angeles,Yes,Aetna,56,FALSE
+140,Patient 140,Male,2021-07-29 00:00:00,5,O+,602-555-2140,patient140@mail.com,Phoenix,Yes,Medicaid,5,FALSE
+141,Patient 141,Female,1970-05-28 00:00:00,56,O+,602-555-2141,patient141@mail.com,Phoenix,No,Self-Pay,56,FALSE
+142,Patient 142,Female,1968-03-10 00:00:00,58,O+,619-555-2142,patient142@mail.com,San Diego,Yes,Blue Cross,58,FALSE
+143,Patient 143,Male,1978-03-28 00:00:00,48,O+,312-555-2143,patient143@mail.com,Chicago,Yes,Cigna,48,FALSE
+144,Patient 144,Female,2016-04-19 00:00:00,10,A-,213-555-2144,patient144@mail.com,Los Angeles,Yes,Medicaid,10,FALSE
+145,Patient 145,Male,1942-02-02 00:00:00,84,A+,619-555-2145,patient145@mail.com,San Diego,No,Self-Pay,84,FALSE
+146,Patient 146,Male,1983-01-14 00:00:00,43,B+,212-555-2146,patient146@mail.com,New York,Yes,Cigna,43,FALSE
+147,Patient 147,Female,2006-01-13 00:00:00,20,A+,619-555-2147,patient147@mail.com,San Diego,Yes,Cigna,20,FALSE
+148,Patient 148,Female,1959-02-07 00:00:00,67,B+,619-555-2148,patient148@mail.com,San Diego,Yes,Medicare,67,FALSE
+149,Patient 149,Female,2002-01-13 00:00:00,24,O+,602-555-2149,patient149@mail.com,Phoenix,Yes,Blue Cross,24,FALSE
+150,Patient 150,Female,2018-09-15 00:00:00,8,A+,213-555-2150,patient150@mail.com,Los Angeles,Yes,Medicaid,8,FALSE
+151,Patient 151,Male,1995-05-11 00:00:00,31,O+,213-555-2151,patient151@mail.com,Los Angeles,Yes,Blue Cross,31,FALSE
+152,Patient 152,Female,1978-05-12 00:00:00,48,B+,212-555-2152,patient152@mail.com,New York,Yes,Cigna,48,FALSE
+153,Patient 153,Female,1962-01-20 00:00:00,64,O-,312-555-2153,patient153@mail.com,Chicago,Yes,UnitedHealthcare,64,FALSE
+154,Patient 154,Female,2009-10-13 00:00:00,16,A+,312-555-2154,patient154@mail.com,Chicago,Yes,Aetna,16,FALSE
+155,Patient 155,Male,1935-11-02 00:00:00,90,AB-,312-555-2155,patient155@mail.com,Chicago,Yes,Medicare,90,FALSE
+156,Patient 156,Female,1994-09-27 00:00:00,32,O+,213-555-2156,patient156@mail.com,Los Angeles,Yes,Aetna,32,FALSE
+157,Patient 157,Female,1970-09-08 00:00:00,56,O+,312-555-2157,patient157@mail.com,Chicago,Yes,Aetna,56,FALSE
+158,Patient 158,Female,1982-12-21 00:00:00,43,A+,619-555-2158,patient158@mail.com,San Diego,Yes,UnitedHealthcare,43,FALSE
+159,Patient 159,Female,1975-06-09 00:00:00,51,O+,619-555-2159,patient159@mail.com,San Diego,Yes,Aetna,51,FALSE
+160,Patient 160,Male,1989-05-22 00:00:00,37,A-,213-555-2160,patient160@mail.com,Los Angeles,Yes,Blue Cross,37,FALSE
+161,Patient 161,Female,1963-10-04 00:00:00,62,A-,602-555-2161,patient161@mail.com,Phoenix,Yes,Cigna,62,FALSE
+162,Patient 162,Male,2013-12-26 00:00:00,12,O+,212-555-2162,patient162@mail.com,New York,Yes,Blue Cross,12,FALSE
+163,Patient 163,Female,2001-02-08 00:00:00,25,O+,213-555-2163,patient163@mail.com,Los Angeles,Yes,Blue Cross,25,FALSE
+164,Patient 164,Female,1976-07-11 00:00:00,50,B-,312-555-2164,patient164@mail.com,Chicago,Yes,Aetna,50,FALSE
+165,Patient 165,Female,1940-08-22 00:00:00,86,A+,312-555-2165,patient165@mail.com,Chicago,Yes,Medicare,86,FALSE
+166,Patient 166,Male,1985-03-06 00:00:00,41,A-,602-555-2166,patient166@mail.com,Phoenix,Yes,Medicaid,41,FALSE
+167,Patient 167,Female,2003-06-07 00:00:00,23,A-,312-555-2167,patient167@mail.com,Chicago,Yes,Aetna,23,FALSE
+168,Patient 168,Male,2014-10-29 00:00:00,11,O+,619-555-2168,patient168@mail.com,San Diego,Yes,Medicaid,11,FALSE
+169,Patient 169,Female,1972-09-01 00:00:00,54,O+,213-555-2169,patient169@mail.com,Los Angeles,Yes,UnitedHealthcare,54,FALSE
+170,Patient 170,Male,1990-06-23 00:00:00,36,A+,212-555-2170,patient170@mail.com,New York,Yes,Blue Cross,36,FALSE
+171,Patient 171,Female,1998-10-01 00:00:00,27,A+,312-555-2171,patient171@mail.com,Chicago,No,Self-Pay,27,FALSE
+172,Patient 172,Male,1961-09-13 00:00:00,65,A+,312-555-2172,patient172@mail.com,Chicago,Yes,Medicare,65,FALSE
+173,Patient 173,Female,1939-10-06 00:00:00,86,B+,312-555-2173,patient173@mail.com,Chicago,Yes,Medicare,86,FALSE
+174,Patient 174,Female,1993-11-18 00:00:00,32,O+,602-555-2174,patient174@mail.com,Phoenix,Yes,Aetna,32,FALSE
+175,Patient 175,Female,2024-11-06 00:00:00,1,A+,602-555-2175,patient175@mail.com,Phoenix,Yes,Cigna,1,FALSE
+176,Patient 176,Female,1971-11-21 00:00:00,54,B+,619-555-2176,patient176@mail.com,San Diego,Yes,Medicaid,54,FALSE
+177,Patient 177,Male,1964-11-02 00:00:00,61,A+,213-555-2177,patient177@mail.com,Los Angeles,Yes,Medicaid,61,FALSE
+178,Patient 178,Female,1976-12-15 00:00:00,49,O+,212-555-2178,patient178@mail.com,New York,Yes,Blue Cross,49,FALSE
+179,Patient 179,Male,2018-09-30 00:00:00,8,O+,212-555-2179,patient179@mail.com,New York,Yes,Cigna,8,FALSE
+180,Patient 180,Female,1975-12-27 00:00:00,50,O-,312-555-2180,patient180@mail.com,Chicago,Yes,UnitedHealthcare,50,FALSE
+181,Patient 181,Female,1966-12-17 00:00:00,59,O+,213-555-2181,patient181@mail.com,Los Angeles,Yes,UnitedHealthcare,59,FALSE
+182,Patient 182,Male,1947-09-02 00:00:00,79,AB-,602-555-2182,patient182@mail.com,Phoenix,Yes,Medicare,79,FALSE
+183,Patient 183,Female,2020-11-25 00:00:00,5,O+,602-555-2183,patient183@mail.com,Phoenix,Yes,Medicaid,5,FALSE
+184,Patient 184,Female,1971-12-29 00:00:00,54,A-,602-555-2184,patient184@mail.com,Phoenix,No,Self-Pay,54,FALSE
+185,Patient 185,Female,1974-08-03 00:00:00,52,O+,312-555-2185,patient185@mail.com,Chicago,Yes,Medicaid,52,FALSE
+186,Patient 186,Male,1957-11-23 00:00:00,68,A+,602-555-2186,patient186@mail.com,Phoenix,Yes,Medicare,68,FALSE
+187,Patient 187,Male,1994-09-17 00:00:00,32,A+,602-555-2187,patient187@mail.com,Phoenix,Yes,Blue Cross,32,FALSE
+188,Patient 188,Male,1985-05-16 00:00:00,41,A+,312-555-2188,patient188@mail.com,Chicago,Yes,UnitedHealthcare,41,FALSE
+189,Patient 189,Male,1983-12-07 00:00:00,42,A+,619-555-2189,patient189@mail.com,San Diego,Yes,UnitedHealthcare,42,FALSE
+190,Patient 190,Female,1978-05-03 00:00:00,48,A+,619-555-2190,patient190@mail.com,San Diego,Yes,Cigna,48,FALSE
+191,Patient 191,Male,1954-11-08 00:00:00,71,B-,213-555-2191,patient191@mail.com,Los Angeles,Yes,Medicare,71,FALSE
+192,Patient 192,Female,2005-11-02 00:00:00,20,A+,619-555-2192,patient192@mail.com,San Diego,Yes,UnitedHealthcare,20,FALSE
+193,Patient 193,Female,1953-12-14 00:00:00,72,O+,619-555-2193,patient193@mail.com,San Diego,Yes,Medicare,72,FALSE
+194,Patient 194,Male,2003-08-14 00:00:00,23,A-,212-555-2194,patient194@mail.com,New York,Yes,UnitedHealthcare,23,FALSE
+195,Patient 195,Male,2010-10-24 00:00:00,15,B+,602-555-2195,patient195@mail.com,Phoenix,Yes,Blue Cross,15,FALSE
+196,Patient 196,Male,2003-04-03 00:00:00,23,O+,312-555-2196,patient196@mail.com,Chicago,Yes,Blue Cross,23,FALSE
+197,Patient 197,Female,2003-07-10 00:00:00,23,O+,602-555-2197,patient197@mail.com,Phoenix,No,Self-Pay,23,FALSE
+198,Patient 198,Male,1970-01-15 00:00:00,56,O+,312-555-2198,patient198@mail.com,Chicago,Yes,UnitedHealthcare,56,FALSE
+199,Patient 199,Male,1975-05-31 00:00:00,51,O+,312-555-2199,patient199@mail.com,Chicago,Yes,Cigna,51,FALSE
+200,Patient 200,Male,2002-04-27 00:00:00,24,O+,213-555-2200,patient200@mail.com,Los Angeles,Yes,Aetna,24,FALSE
+201,Patient 201,Female,1989-05-27 00:00:00,37,O+,619-555-2201,patient201@mail.com,San Diego,No,Self-Pay,37,FALSE
+202,Patient 202,Female,1981-02-10 00:00:00,45,O+,213-555-2202,patient202@mail.com,Los Angeles,No,Self-Pay,45,FALSE
+203,Patient 203,Female,1938-06-16 00:00:00,88,O+,619-555-2203,patient203@mail.com,San Diego,Yes,Medicare,88,FALSE
+204,Patient 204,Male,1987-04-12 00:00:00,39,O+,619-555-2204,patient204@mail.com,San Diego,Yes,UnitedHealthcare,39,FALSE
+205,Patient 205,Male,1962-07-04 00:00:00,64,A+,213-555-2205,patient205@mail.com,Los Angeles,No,Self-Pay,64,FALSE
+206,Patient 206,Female,1960-05-04 00:00:00,66,A+,619-555-2206,patient206@mail.com,San Diego,Yes,Medicare,66,FALSE
+207,Patient 207,Female,1999-05-18 00:00:00,27,A+,212-555-2207,patient207@mail.com,New York,Yes,UnitedHealthcare,27,FALSE
+208,Patient 208,Female,1974-12-19 00:00:00,51,B+,602-555-2208,patient208@mail.com,Phoenix,Yes,Blue Cross,51,FALSE
+209,Patient 209,Male,1994-04-14 00:00:00,32,O+,619-555-2209,patient209@mail.com,San Diego,Yes,Blue Cross,32,FALSE
+210,Patient 210,Female,1988-02-01 00:00:00,38,O+,312-555-2210,patient210@mail.com,Chicago,Yes,Blue Cross,38,FALSE
+211,Patient 211,Male,1985-06-23 00:00:00,41,A+,212-555-2211,patient211@mail.com,New York,Yes,Cigna,41,FALSE
+212,Patient 212,Female,1944-05-24 00:00:00,82,O+,212-555-2212,patient212@mail.com,New York,Yes,Medicare,82,FALSE
+213,Patient 213,Female,1973-03-11 00:00:00,53,B+,212-555-2213,patient213@mail.com,New York,Yes,UnitedHealthcare,53,FALSE
+214,Patient 214,Female,1999-07-24 00:00:00,27,O-,212-555-2214,patient214@mail.com,New York,Yes,Blue Cross,27,FALSE
+215,Patient 215,Male,1943-04-13 00:00:00,83,A+,312-555-2215,patient215@mail.com,Chicago,Yes,Medicare,83,FALSE
+216,Patient 216,Male,1964-10-19 00:00:00,61,A+,212-555-2216,patient216@mail.com,New York,Yes,Cigna,61,FALSE
+217,Patient 217,Male,2006-12-22 00:00:00,19,A+,602-555-2217,patient217@mail.com,Phoenix,Yes,Blue Cross,19,FALSE
+218,Patient 218,Male,1950-01-22 00:00:00,76,AB-,619-555-2218,patient218@mail.com,San Diego,Yes,Medicare,76,FALSE
+219,Patient 219,Male,1975-03-06 00:00:00,51,A+,213-555-2219,patient219@mail.com,Los Angeles,Yes,Blue Cross,51,FALSE
+220,Patient 220,Female,2025-03-11 00:00:00,1,B-,213-555-2220,patient220@mail.com,Los Angeles,Yes,Blue Cross,1,FALSE
+221,Patient 221,Male,1949-07-22 00:00:00,77,A+,602-555-2221,patient221@mail.com,Phoenix,Yes,Medicare,77,FALSE
+222,Patient 222,Male,1980-05-29 00:00:00,46,O+,212-555-2222,patient222@mail.com,New York,Yes,Cigna,46,FALSE
+223,Patient 223,Female,2025-02-15 00:00:00,1,B+,312-555-2223,patient223@mail.com,Chicago,Yes,UnitedHealthcare,1,FALSE
+224,Patient 224,Male,1976-04-04 00:00:00,50,O+,213-555-2224,patient224@mail.com,Los Angeles,Yes,Medicaid,50,FALSE
+225,Patient 225,Female,1986-05-05 00:00:00,40,O+,212-555-2225,patient225@mail.com,New York,Yes,Aetna,40,FALSE
+226,Patient 226,Male,1978-03-26 00:00:00,48,A+,212-555-2226,patient226@mail.com,New York,Yes,Medicaid,48,FALSE
+227,Patient 227,Male,1968-05-24 00:00:00,58,A+,212-555-2227,patient227@mail.com,New York,Yes,UnitedHealthcare,58,FALSE
+228,Patient 228,Female,1962-09-25 00:00:00,64,O+,619-555-2228,patient228@mail.com,San Diego,Yes,UnitedHealthcare,64,FALSE
+229,Patient 229,Male,1990-06-30 00:00:00,36,A+,619-555-2229,patient229@mail.com,San Diego,Yes,Medicaid,36,FALSE
+230,Patient 230,Female,2002-03-04 00:00:00,24,O+,212-555-2230,patient230@mail.com,New York,Yes,UnitedHealthcare,24,FALSE
+231,Patient 231,Male,2024-08-14 00:00:00,2,O+,212-555-2231,patient231@mail.com,New York,Yes,Medicaid,2,FALSE
+232,Patient 232,Male,1948-11-20 00:00:00,77,B-,312-555-2232,patient232@mail.com,Chicago,Yes,Medicare,77,FALSE
+233,Patient 233,Female,2014-10-30 00:00:00,11,A-,213-555-2233,patient233@mail.com,Los Angeles,Yes,Medicaid,11,FALSE
+234,Patient 234,Male,1966-02-19 00:00:00,60,O+,602-555-2234,patient234@mail.com,Phoenix,Yes,Cigna,60,FALSE
+235,Patient 235,Female,2008-10-29 00:00:00,17,A+,312-555-2235,patient235@mail.com,Chicago,Yes,Cigna,17,FALSE
+236,Patient 236,Male,1990-09-04 00:00:00,36,O+,602-555-2236,patient236@mail.com,Phoenix,Yes,UnitedHealthcare,36,FALSE
+237,Patient 237,Female,2014-06-10 00:00:00,12,O+,602-555-2237,patient237@mail.com,Phoenix,Yes,UnitedHealthcare,12,FALSE
+238,Patient 238,Female,2002-04-16 00:00:00,24,B+,312-555-2238,patient238@mail.com,Chicago,Yes,Blue Cross,24,FALSE
+239,Patient 239,Male,2021-08-08 00:00:00,5,B+,602-555-2239,patient239@mail.com,Phoenix,Yes,Blue Cross,5,FALSE
+240,Patient 240,Male,1967-10-24 00:00:00,58,B+,312-555-2240,patient240@mail.com,Chicago,Yes,UnitedHealthcare,58,FALSE
+241,Patient 241,Female,1975-08-02 00:00:00,51,A+,212-555-2241,patient241@mail.com,New York,Yes,Aetna,51,FALSE
+242,Patient 242,Male,1995-01-14 00:00:00,31,O+,312-555-2242,patient242@mail.com,Chicago,Yes,Medicaid,31,FALSE
+243,Patient 243,Female,1967-07-20 00:00:00,59,A+,212-555-2243,patient243@mail.com,New York,Yes,UnitedHealthcare,59,FALSE
+244,Patient 244,Female,1956-11-17 00:00:00,69,O+,602-555-2244,patient244@mail.com,Phoenix,No,Self-Pay,69,FALSE
+245,Patient 245,Female,1937-02-07 00:00:00,89,O+,602-555-2245,patient245@mail.com,Phoenix,Yes,Medicare,89,FALSE
+246,Patient 246,Female,1970-05-03 00:00:00,56,O+,602-555-2246,patient246@mail.com,Phoenix,Yes,Aetna,56,FALSE
+247,Patient 247,Female,1969-07-06 00:00:00,57,B+,212-555-2247,patient247@mail.com,New York,Yes,UnitedHealthcare,57,FALSE
+248,Patient 248,Male,1947-09-30 00:00:00,79,A+,602-555-2248,patient248@mail.com,Phoenix,Yes,Medicare,79,FALSE
+249,Patient 249,Female,1983-06-25 00:00:00,43,O+,212-555-2249,patient249@mail.com,New York,Yes,UnitedHealthcare,43,FALSE
+250,Patient 250,Female,1940-10-28 00:00:00,85,O+,619-555-2250,patient250@mail.com,San Diego,Yes,Medicare,85,FALSE
+251,Patient 251,Female,1970-08-12 00:00:00,56,A-,619-555-2251,patient251@mail.com,San Diego,Yes,UnitedHealthcare,56,FALSE
+252,Patient 252,Female,1991-08-07 00:00:00,35,O+,212-555-2252,patient252@mail.com,New York,Yes,Medicaid,35,FALSE
+253,Patient 253,Male,1981-01-07 00:00:00,45,A+,312-555-2253,patient253@mail.com,Chicago,Yes,Medicaid,45,FALSE
+254,Patient 254,Male,1959-10-16 00:00:00,66,O+,212-555-2254,patient254@mail.com,New York,Yes,Medicare,66,FALSE
+255,Patient 255,Male,1970-12-20 00:00:00,55,A+,213-555-2255,patient255@mail.com,Los Angeles,Yes,Aetna,55,FALSE
+256,Patient 256,Male,2003-04-13 00:00:00,23,O+,312-555-2256,patient256@mail.com,Chicago,Yes,Medicaid,23,FALSE
+257,Patient 257,Male,2002-10-26 00:00:00,23,A+,619-555-2257,patient257@mail.com,San Diego,Yes,Aetna,23,FALSE
+258,Patient 258,Female,1951-07-13 00:00:00,75,O+,312-555-2258,patient258@mail.com,Chicago,Yes,Medicare,75,FALSE
+259,Patient 259,Male,1985-12-08 00:00:00,40,A+,212-555-2259,patient259@mail.com,New York,Yes,Aetna,40,FALSE
+260,Patient 260,Female,1968-12-19 00:00:00,57,O+,312-555-2260,patient260@mail.com,Chicago,Yes,UnitedHealthcare,57,FALSE
+261,Patient 261,Female,1995-08-20 00:00:00,31,B-,212-555-2261,patient261@mail.com,New York,Yes,Blue Cross,31,FALSE
+262,Patient 262,Female,1939-05-01 00:00:00,87,O+,212-555-2262,patient262@mail.com,New York,No,Self-Pay,87,FALSE
+263,Patient 263,Female,2019-08-21 00:00:00,7,O+,619-555-2263,patient263@mail.com,San Diego,Yes,Blue Cross,7,FALSE
+264,Patient 264,Female,2003-05-01 00:00:00,23,O+,602-555-2264,patient264@mail.com,Phoenix,Yes,Cigna,23,FALSE
+265,Patient 265,Female,1961-09-17 00:00:00,65,O-,213-555-2265,patient265@mail.com,Los Angeles,Yes,Medicare,65,FALSE
+266,Patient 266,Female,2023-04-01 00:00:00,3,O+,602-555-2266,patient266@mail.com,Phoenix,Yes,UnitedHealthcare,3,FALSE
+267,Patient 267,Male,1999-03-15 00:00:00,27,O+,312-555-2267,patient267@mail.com,Chicago,Yes,UnitedHealthcare,27,FALSE
+268,Patient 268,Female,1996-02-14 00:00:00,30,A+,212-555-2268,patient268@mail.com,New York,Yes,Blue Cross,30,FALSE
+269,Patient 269,Male,2016-06-16 00:00:00,10,A-,213-555-2269,patient269@mail.com,Los Angeles,Yes,Cigna,10,FALSE
+270,Patient 270,Female,1980-08-22 00:00:00,46,A+,602-555-2270,patient270@mail.com,Phoenix,No,Self-Pay,46,FALSE
+271,Patient 271,Female,1973-05-06 00:00:00,53,A+,619-555-2271,patient271@mail.com,San Diego,No,Self-Pay,53,FALSE
+272,Patient 272,Male,2018-09-13 00:00:00,8,O+,213-555-2272,patient272@mail.com,Los Angeles,Yes,Medicaid,8,FALSE
+273,Patient 273,Male,1978-06-06 00:00:00,48,O+,212-555-2273,patient273@mail.com,New York,No,Self-Pay,48,FALSE
+274,Patient 274,Female,2018-06-04 00:00:00,8,O-,213-555-2274,patient274@mail.com,Los Angeles,Yes,Medicaid,8,FALSE
+275,Patient 275,Male,1994-07-04 00:00:00,32,A-,602-555-2275,patient275@mail.com,Phoenix,Yes,Cigna,32,FALSE
+276,Patient 276,Male,1959-01-01 00:00:00,67,O+,312-555-2276,patient276@mail.com,Chicago,Yes,Medicare,67,FALSE
+277,Patient 277,Male,1987-04-10 00:00:00,39,A+,312-555-2277,patient277@mail.com,Chicago,Yes,Blue Cross,39,FALSE
+278,Patient 278,Female,1968-12-13 00:00:00,57,A+,312-555-2278,patient278@mail.com,Chicago,Yes,Cigna,57,FALSE
+279,Patient 279,Male,2011-05-23 00:00:00,15,O+,602-555-2279,patient279@mail.com,Phoenix,Yes,UnitedHealthcare,15,FALSE
+280,Patient 280,Male,1969-03-22 00:00:00,57,AB-,312-555-2280,patient280@mail.com,Chicago,Yes,Cigna,57,FALSE
+281,Patient 281,Female,1945-12-15 00:00:00,80,A+,312-555-2281,patient281@mail.com,Chicago,Yes,Medicare,80,FALSE
+282,Patient 282,Male,2023-11-30 00:00:00,2,O+,312-555-2282,patient282@mail.com,Chicago,Yes,Medicaid,2,FALSE
+283,Patient 283,Male,1981-06-09 00:00:00,45,O+,312-555-2283,patient283@mail.com,Chicago,No,Self-Pay,45,FALSE
+284,Patient 284,Male,1945-04-02 00:00:00,81,A+,213-555-2284,patient284@mail.com,Los Angeles,Yes,Medicare,81,FALSE
+285,Patient 285,Male,1984-11-20 00:00:00,41,O+,619-555-2285,patient285@mail.com,San Diego,Yes,Cigna,41,FALSE
+286,Patient 286,Male,1989-06-14 00:00:00,37,A+,213-555-2286,patient286@mail.com,Los Angeles,Yes,Cigna,37,FALSE
+287,Patient 287,Female,1963-10-19 00:00:00,62,O+,312-555-2287,patient287@mail.com,Chicago,Yes,Cigna,62,FALSE
+288,Patient 288,Male,1941-12-03 00:00:00,84,O+,619-555-2288,patient288@mail.com,San Diego,Yes,Medicare,84,FALSE
+289,Patient 289,Female,2023-07-02 00:00:00,3,O+,602-555-2289,patient289@mail.com,Phoenix,Yes,Medicaid,3,FALSE
+290,Patient 290,Male,2004-02-22 00:00:00,22,A+,213-555-2290,patient290@mail.com,Los Angeles,Yes,Blue Cross,22,FALSE
+291,Patient 291,Male,2008-03-30 00:00:00,18,O+,213-555-2291,patient291@mail.com,Los Angeles,Yes,UnitedHealthcare,18,FALSE
+292,Patient 292,Female,2017-07-30 00:00:00,9,O+,212-555-2292,patient292@mail.com,New York,Yes,UnitedHealthcare,9,FALSE
+293,Patient 293,Male,2005-11-21 00:00:00,20,A+,212-555-2293,patient293@mail.com,New York,Yes,Blue Cross,20,FALSE
+294,Patient 294,Female,2004-07-20 00:00:00,22,AB+,212-555-2294,patient294@mail.com,New York,Yes,Blue Cross,22,FALSE
+295,Patient 295,Female,1947-07-04 00:00:00,79,O+,212-555-2295,patient295@mail.com,New York,Yes,Medicare,79,FALSE
+296,Patient 296,Female,1952-06-01 00:00:00,74,O+,212-555-2296,patient296@mail.com,New York,Yes,Medicare,74,FALSE
+297,Patient 297,Female,2026-08-30 00:00:00,0,B+,312-555-2297,patient297@mail.com,Chicago,Yes,UnitedHealthcare,0,FALSE
+298,Patient 298,Female,1936-10-25 00:00:00,89,A+,602-555-2298,patient298@mail.com,Phoenix,Yes,Medicare,89,FALSE
+299,Patient 299,Male,1983-01-21 00:00:00,43,A+,602-555-2299,patient299@mail.com,Phoenix,No,Self-Pay,43,FALSE
+300,Patient 300,Male,1981-10-21 00:00:00,44,A+,213-555-2300,patient300@mail.com,Los Angeles,Yes,Cigna,44,FALSE
+301,Patient 301,Female,2024-11-20 00:00:00,1,O+,213-555-2301,patient301@mail.com,Los Angeles,Yes,Medicaid,1,FALSE
+302,Patient 302,Male,2003-11-02 00:00:00,22,A+,212-555-2302,patient302@mail.com,New York,No,Self-Pay,22,FALSE
+303,Patient 303,Female,1995-02-11 00:00:00,31,B+,619-555-2303,patient303@mail.com,San Diego,Yes,UnitedHealthcare,31,FALSE
+304,Patient 304,Female,1948-12-18 00:00:00,77,A+,619-555-2304,patient304@mail.com,San Diego,Yes,Medicare,77,FALSE
+305,Patient 305,Female,2002-12-09 00:00:00,23,O+,312-555-2305,patient305@mail.com,Chicago,Yes,UnitedHealthcare,23,FALSE
+306,Patient 306,Female,1998-09-30 00:00:00,28,A+,212-555-2306,patient306@mail.com,New York,Yes,UnitedHealthcare,28,FALSE
+307,Patient 307,Female,2014-10-07 00:00:00,11,B+,213-555-2307,patient307@mail.com,Los Angeles,Yes,UnitedHealthcare,11,FALSE
+308,Patient 308,Female,1980-06-14 00:00:00,46,A+,619-555-2308,patient308@mail.com,San Diego,Yes,UnitedHealthcare,46,FALSE
+309,Patient 309,Male,1967-05-09 00:00:00,59,B+,602-555-2309,patient309@mail.com,Phoenix,Yes,UnitedHealthcare,59,FALSE
+310,Patient 310,Female,2009-05-03 00:00:00,17,B+,213-555-2310,patient310@mail.com,Los Angeles,Yes,Blue Cross,17,FALSE
+311,Patient 311,Female,2025-11-11 00:00:00,0,A+,213-555-2311,patient311@mail.com,Los Angeles,Yes,Cigna,0,FALSE
+312,Patient 312,Male,2007-08-23 00:00:00,19,A-,619-555-2312,patient312@mail.com,San Diego,Yes,Blue Cross,19,FALSE
+313,Patient 313,Female,1979-07-22 00:00:00,47,A+,619-555-2313,patient313@mail.com,San Diego,Yes,Cigna,47,FALSE
+314,Patient 314,Male,1942-06-30 00:00:00,84,A+,213-555-2314,patient314@mail.com,Los Angeles,Yes,Medicare,84,FALSE
+315,Patient 315,Female,1975-04-04 00:00:00,51,A+,602-555-2315,patient315@mail.com,Phoenix,Yes,UnitedHealthcare,51,FALSE
+316,Patient 316,Male,1970-05-10 00:00:00,56,O-,212-555-2316,patient316@mail.com,New York,Yes,Cigna,56,FALSE
+317,Patient 317,Female,2024-12-16 00:00:00,1,O+,312-555-2317,patient317@mail.com,Chicago,Yes,Medicaid,1,FALSE
+318,Patient 318,Female,2017-07-25 00:00:00,9,A+,312-555-2318,patient318@mail.com,Chicago,Yes,Medicaid,9,FALSE
+319,Patient 319,Female,1943-09-11 00:00:00,83,A+,312-555-2319,patient319@mail.com,Chicago,No,Self-Pay,83,FALSE
+320,Patient 320,Male,1988-09-07 00:00:00,38,O+,312-555-2320,patient320@mail.com,Chicago,Yes,Aetna,38,FALSE
+321,Patient 321,Female,2016-02-07 00:00:00,10,O+,312-555-2321,patient321@mail.com,Chicago,Yes,Blue Cross,10,FALSE
+322,Patient 322,Female,2006-10-09 00:00:00,19,O+,619-555-2322,patient322@mail.com,San Diego,No,Self-Pay,19,FALSE
+323,Patient 323,Female,1983-02-18 00:00:00,43,O+,213-555-2323,patient323@mail.com,Los Angeles,Yes,Cigna,43,FALSE
+324,Patient 324,Female,1980-08-10 00:00:00,46,B+,619-555-2324,patient324@mail.com,San Diego,Yes,Medicaid,46,FALSE
+325,Patient 325,Female,2006-05-04 00:00:00,20,O+,602-555-2325,patient325@mail.com,Phoenix,No,Self-Pay,20,FALSE
+326,Patient 326,Male,1973-08-29 00:00:00,53,O+,213-555-2326,patient326@mail.com,Los Angeles,Yes,Blue Cross,53,FALSE
+327,Patient 327,Female,1955-02-19 00:00:00,71,O-,213-555-2327,patient327@mail.com,Los Angeles,Yes,Medicare,71,FALSE
+328,Patient 328,Female,1952-11-05 00:00:00,73,B+,213-555-2328,patient328@mail.com,Los Angeles,Yes,Medicare,73,FALSE
+329,Patient 329,Male,1993-11-20 00:00:00,32,A+,213-555-2329,patient329@mail.com,Los Angeles,Yes,UnitedHealthcare,32,FALSE
+330,Patient 330,Male,2024-05-19 00:00:00,2,O+,213-555-2330,patient330@mail.com,Los Angeles,Yes,UnitedHealthcare,2,FALSE
+331,Patient 331,Male,2019-03-07 00:00:00,7,O+,212-555-2331,patient331@mail.com,New York,Yes,Medicaid,7,FALSE
+332,Patient 332,Female,1973-06-24 00:00:00,53,O-,619-555-2332,patient332@mail.com,San Diego,Yes,Medicaid,53,FALSE
+333,Patient 333,Male,1942-06-27 00:00:00,84,A+,312-555-2333,patient333@mail.com,Chicago,Yes,Medicare,84,FALSE
+334,Patient 334,Female,1960-04-10 00:00:00,66,A+,312-555-2334,patient334@mail.com,Chicago,Yes,Medicare,66,FALSE
+335,Patient 335,Female,2024-12-28 00:00:00,1,O+,602-555-2335,patient335@mail.com,Phoenix,Yes,Medicaid,1,FALSE
+336,Patient 336,Male,1976-05-14 00:00:00,50,O+,213-555-2336,patient336@mail.com,Los Angeles,Yes,UnitedHealthcare,50,FALSE
+337,Patient 337,Male,1970-02-24 00:00:00,56,A+,619-555-2337,patient337@mail.com,San Diego,Yes,Blue Cross,56,FALSE
+338,Patient 338,Male,1953-10-20 00:00:00,72,B+,213-555-2338,patient338@mail.com,Los Angeles,Yes,Medicare,72,FALSE
+339,Patient 339,Male,2012-04-08 00:00:00,14,A+,602-555-2339,patient339@mail.com,Phoenix,Yes,Medicaid,14,FALSE
+340,Patient 340,Female,1936-04-16 00:00:00,90,A+,212-555-2340,patient340@mail.com,New York,Yes,Medicare,90,FALSE
+341,Patient 341,Male,1981-02-05 00:00:00,45,O+,312-555-2341,patient341@mail.com,Chicago,Yes,Aetna,45,FALSE
+342,Patient 342,Male,1984-10-19 00:00:00,41,A+,602-555-2342,patient342@mail.com,Phoenix,Yes,Aetna,41,FALSE
+343,Patient 343,Male,2011-01-06 00:00:00,15,A+,212-555-2343,patient343@mail.com,New York,Yes,UnitedHealthcare,15,FALSE
+344,Patient 344,Female,1966-12-17 00:00:00,59,AB+,312-555-2344,patient344@mail.com,Chicago,Yes,UnitedHealthcare,59,FALSE
+345,Patient 345,Male,2007-04-21 00:00:00,19,O-,602-555-2345,patient345@mail.com,Phoenix,Yes,Medicaid,19,FALSE
+346,Patient 346,Female,1998-01-30 00:00:00,28,AB+,312-555-2346,patient346@mail.com,Chicago,Yes,Blue Cross,28,FALSE
+347,Patient 347,Female,1960-04-14 00:00:00,66,A-,602-555-2347,patient347@mail.com,Phoenix,Yes,Medicare,66,FALSE
+348,Patient 348,Male,2020-07-15 00:00:00,6,A+,619-555-2348,patient348@mail.com,San Diego,Yes,Blue Cross,6,FALSE
+349,Patient 349,Male,1962-06-29 00:00:00,64,O+,312-555-2349,patient349@mail.com,Chicago,Yes,Cigna,64,FALSE
+350,Patient 350,Male,1961-04-10 00:00:00,65,O-,602-555-2350,patient350@mail.com,Phoenix,Yes,Medicare,65,FALSE
+351,Patient 351,Male,1991-09-24 00:00:00,35,O+,212-555-2351,patient351@mail.com,New York,Yes,Aetna,35,FALSE
+352,Patient 352,Female,1939-05-02 00:00:00,87,O+,602-555-2352,patient352@mail.com,Phoenix,Yes,Medicare,87,FALSE
+353,Patient 353,Male,1973-06-10 00:00:00,53,O+,602-555-2353,patient353@mail.com,Phoenix,No,Self-Pay,53,FALSE
+354,Patient 354,Male,1938-11-09 00:00:00,87,B+,213-555-2354,patient354@mail.com,Los Angeles,Yes,Medicare,87,FALSE
+355,Patient 355,Female,2020-04-24 00:00:00,6,B+,312-555-2355,patient355@mail.com,Chicago,Yes,Medicaid,6,FALSE
+356,Patient 356,Female,1993-09-29 00:00:00,33,O+,312-555-2356,patient356@mail.com,Chicago,Yes,Blue Cross,33,FALSE
+357,Patient 357,Female,1973-08-30 00:00:00,53,B+,312-555-2357,patient357@mail.com,Chicago,Yes,UnitedHealthcare,53,FALSE
+358,Patient 358,Female,1948-10-12 00:00:00,77,A+,213-555-2358,patient358@mail.com,Los Angeles,Yes,Medicare,77,FALSE
+359,Patient 359,Female,2015-02-16 00:00:00,11,A+,602-555-2359,patient359@mail.com,Phoenix,Yes,Aetna,11,FALSE
+360,Patient 360,Male,2002-05-21 00:00:00,24,A+,212-555-2360,patient360@mail.com,New York,Yes,Aetna,24,FALSE
+361,Patient 361,Female,1966-05-28 00:00:00,60,A+,213-555-2361,patient361@mail.com,Los Angeles,Yes,Aetna,60,FALSE
+362,Patient 362,Female,1999-03-19 00:00:00,27,O+,212-555-2362,patient362@mail.com,New York,Yes,Cigna,27,FALSE
+363,Patient 363,Male,1969-01-21 00:00:00,57,AB-,213-555-2363,patient363@mail.com,Los Angeles,Yes,Blue Cross,57,FALSE
+364,Patient 364,Male,2008-06-25 00:00:00,18,AB-,602-555-2364,patient364@mail.com,Phoenix,Yes,Medicaid,18,FALSE
+365,Patient 365,Male,1965-01-28 00:00:00,61,O-,619-555-2365,patient365@mail.com,San Diego,Yes,Aetna,61,FALSE
+366,Patient 366,Female,1961-07-09 00:00:00,65,A+,213-555-2366,patient366@mail.com,Los Angeles,Yes,Medicare,65,FALSE
+367,Patient 367,Female,1974-12-28 00:00:00,51,O+,212-555-2367,patient367@mail.com,New York,Yes,Cigna,51,FALSE
+368,Patient 368,Male,1995-06-22 00:00:00,31,A+,602-555-2368,patient368@mail.com,Phoenix,Yes,Aetna,31,FALSE
+369,Patient 369,Male,1965-10-18 00:00:00,60,O-,602-555-2369,patient369@mail.com,Phoenix,Yes,Blue Cross,60,FALSE
+370,Patient 370,Female,2018-09-15 00:00:00,8,B+,212-555-2370,patient370@mail.com,New York,No,Self-Pay,8,FALSE
+371,Patient 371,Male,2009-07-11 00:00:00,17,AB-,602-555-2371,patient371@mail.com,Phoenix,Yes,Aetna,17,FALSE
+372,Patient 372,Female,2009-12-12 00:00:00,16,O-,212-555-2372,patient372@mail.com,New York,Yes,UnitedHealthcare,16,FALSE
+373,Patient 373,Male,2014-11-30 00:00:00,11,AB-,602-555-2373,patient373@mail.com,Phoenix,Yes,Medicaid,11,FALSE
+374,Patient 374,Female,1967-04-14 00:00:00,59,O+,619-555-2374,patient374@mail.com,San Diego,Yes,UnitedHealthcare,59,FALSE
+375,Patient 375,Female,1956-11-17 00:00:00,69,O-,213-555-2375,patient375@mail.com,Los Angeles,Yes,Medicare,69,FALSE
+376,Patient 376,Female,1992-10-18 00:00:00,33,A+,619-555-2376,patient376@mail.com,San Diego,Yes,Aetna,33,FALSE
+377,Patient 377,Female,1979-02-18 00:00:00,47,O+,602-555-2377,patient377@mail.com,Phoenix,No,Self-Pay,47,FALSE
+378,Patient 378,Female,2007-06-09 00:00:00,19,O+,213-555-2378,patient378@mail.com,Los Angeles,Yes,UnitedHealthcare,19,FALSE
+379,Patient 379,Male,2026-05-26 00:00:00,0,O+,619-555-2379,patient379@mail.com,San Diego,Yes,Cigna,0,FALSE
+380,Patient 380,Female,2021-11-18 00:00:00,4,O+,619-555-2380,patient380@mail.com,San Diego,Yes,Medicaid,4,FALSE
+381,Patient 381,Male,1969-11-06 00:00:00,56,O+,619-555-2381,patient381@mail.com,San Diego,Yes,Aetna,56,FALSE
+382,Patient 382,Female,2021-09-03 00:00:00,5,O+,619-555-2382,patient382@mail.com,San Diego,Yes,Cigna,5,FALSE
+383,Patient 383,Female,1967-10-14 00:00:00,58,A+,213-555-2383,patient383@mail.com,Los Angeles,Yes,Cigna,58,FALSE
+384,Patient 384,Female,1936-05-13 00:00:00,90,O+,213-555-2384,patient384@mail.com,Los Angeles,Yes,Medicare,90,FALSE
+385,Patient 385,Female,1946-05-14 00:00:00,80,A+,312-555-2385,patient385@mail.com,Chicago,Yes,Medicare,80,FALSE
+386,Patient 386,Male,1987-09-15 00:00:00,39,O+,213-555-2386,patient386@mail.com,Los Angeles,Yes,Cigna,39,FALSE
+387,Patient 387,Female,1989-01-07 00:00:00,37,O+,212-555-2387,patient387@mail.com,New York,Yes,Aetna,37,FALSE
+388,Patient 388,Male,2016-02-20 00:00:00,10,A+,619-555-2388,patient388@mail.com,San Diego,Yes,Medicaid,10,FALSE
+389,Patient 389,Male,1986-11-10 00:00:00,39,A+,312-555-2389,patient389@mail.com,Chicago,Yes,UnitedHealthcare,39,FALSE
+390,Patient 390,Female,1997-02-14 00:00:00,29,O+,213-555-2390,patient390@mail.com,Los Angeles,Yes,Medicaid,29,FALSE
+391,Patient 391,Male,1969-11-12 00:00:00,56,A+,312-555-2391,patient391@mail.com,Chicago,No,Self-Pay,56,FALSE
+392,Patient 392,Female,2011-10-21 00:00:00,14,O+,213-555-2392,patient392@mail.com,Los Angeles,Yes,Medicaid,14,FALSE
+393,Patient 393,Female,2020-10-13 00:00:00,5,A-,213-555-2393,patient393@mail.com,Los Angeles,Yes,Blue Cross,5,FALSE
+394,Patient 394,Male,2010-07-10 00:00:00,16,A+,312-555-2394,patient394@mail.com,Chicago,Yes,UnitedHealthcare,16,FALSE
+395,Patient 395,Male,2005-12-02 00:00:00,20,O+,619-555-2395,patient395@mail.com,San Diego,Yes,UnitedHealthcare,20,FALSE
+396,Patient 396,Female,2014-08-08 00:00:00,12,A+,619-555-2396,patient396@mail.com,San Diego,Yes,Aetna,12,FALSE
+397,Patient 397,Female,2015-05-21 00:00:00,11,O+,602-555-2397,patient397@mail.com,Phoenix,Yes,Medicaid,11,FALSE
+398,Patient 398,Male,1964-07-08 00:00:00,62,A+,602-555-2398,patient398@mail.com,Phoenix,Yes,UnitedHealthcare,62,FALSE
+399,Patient 399,Male,1994-01-23 00:00:00,32,A+,312-555-2399,patient399@mail.com,Chicago,Yes,Aetna,32,FALSE
+400,Patient 400,Female,1993-12-04 00:00:00,32,O+,212-555-2400,patient400@mail.com,New York,Yes,Cigna,32,FALSE
+401,Patient 401,Male,1984-10-15 00:00:00,41,A+,619-555-2401,patient401@mail.com,San Diego,Yes,Cigna,41,FALSE
+402,Patient 402,Male,1955-02-11 00:00:00,71,B+,212-555-2402,patient402@mail.com,New York,Yes,Medicare,71,FALSE
+403,Patient 403,Female,1983-10-15 00:00:00,42,B+,212-555-2403,patient403@mail.com,New York,Yes,Aetna,42,FALSE
+404,Patient 404,Male,1998-02-20 00:00:00,28,O+,602-555-2404,patient404@mail.com,Phoenix,Yes,Aetna,28,FALSE
+405,Patient 405,Female,1946-03-05 00:00:00,80,B+,312-555-2405,patient405@mail.com,Chicago,Yes,Medicare,80,FALSE
+406,Patient 406,Female,1989-07-18 00:00:00,37,A+,212-555-2406,patient406@mail.com,New York,Yes,Cigna,37,FALSE
+407,Patient 407,Male,2005-10-01 00:00:00,20,A+,213-555-2407,patient407@mail.com,Los Angeles,Yes,Medicaid,20,FALSE
+408,Patient 408,Female,2009-07-20 00:00:00,17,O+,602-555-2408,patient408@mail.com,Phoenix,No,Self-Pay,17,FALSE
+409,Patient 409,Female,1981-07-12 00:00:00,45,A+,212-555-2409,patient409@mail.com,New York,Yes,Cigna,45,FALSE
+410,Patient 410,Male,1997-07-20 00:00:00,29,B+,602-555-2410,patient410@mail.com,Phoenix,Yes,Cigna,29,FALSE
+411,Patient 411,Female,2005-09-07 00:00:00,21,A-,602-555-2411,patient411@mail.com,Phoenix,Yes,Aetna,21,FALSE
+412,Patient 412,Female,1949-03-04 00:00:00,77,O-,602-555-2412,patient412@mail.com,Phoenix,Yes,Medicare,77,FALSE
+413,Patient 413,Female,2014-07-09 00:00:00,12,A+,619-555-2413,patient413@mail.com,San Diego,Yes,Medicaid,12,FALSE
+414,Patient 414,Female,2007-07-14 00:00:00,19,AB+,602-555-2414,patient414@mail.com,Phoenix,Yes,Aetna,19,FALSE
+415,Patient 415,Female,1996-10-15 00:00:00,29,A+,212-555-2415,patient415@mail.com,New York,Yes,Aetna,29,FALSE
+416,Patient 416,Female,2001-04-06 00:00:00,25,O+,213-555-2416,patient416@mail.com,Los Angeles,Yes,Blue Cross,25,FALSE
+417,Patient 417,Male,1993-05-10 00:00:00,33,O+,213-555-2417,patient417@mail.com,Los Angeles,Yes,Medicaid,33,FALSE
+418,Patient 418,Male,2010-06-01 00:00:00,16,A+,213-555-2418,patient418@mail.com,Los Angeles,No,Self-Pay,16,FALSE
+419,Patient 419,Male,2010-01-06 00:00:00,16,B+,312-555-2419,patient419@mail.com,Chicago,Yes,Aetna,16,FALSE
+420,Patient 420,Female,1960-11-12 00:00:00,65,A+,312-555-2420,patient420@mail.com,Chicago,Yes,Medicare,65,FALSE
+421,Patient 421,Male,1970-08-30 00:00:00,56,A+,619-555-2421,patient421@mail.com,San Diego,No,Self-Pay,56,FALSE
+422,Patient 422,Male,2023-07-11 00:00:00,3,A-,602-555-2422,patient422@mail.com,Phoenix,Yes,Blue Cross,3,FALSE
+423,Patient 423,Male,1967-09-27 00:00:00,59,A+,212-555-2423,patient423@mail.com,New York,Yes,Blue Cross,59,FALSE
+424,Patient 424,Female,1986-11-02 00:00:00,39,O+,212-555-2424,patient424@mail.com,New York,Yes,Blue Cross,39,FALSE
+425,Patient 425,Male,1968-11-04 00:00:00,57,A+,212-555-2425,patient425@mail.com,New York,Yes,Medicaid,57,FALSE
+426,Patient 426,Male,2026-09-11 00:00:00,0,O+,619-555-2426,patient426@mail.com,San Diego,Yes,Medicaid,0,FALSE
+427,Patient 427,Female,1984-02-08 00:00:00,42,O+,213-555-2427,patient427@mail.com,Los Angeles,Yes,Cigna,42,FALSE
+428,Patient 428,Female,2018-10-28 00:00:00,7,A+,212-555-2428,patient428@mail.com,New York,Yes,Medicaid,7,FALSE
+429,Patient 429,Female,2010-09-09 00:00:00,16,O+,212-555-2429,patient429@mail.com,New York,Yes,UnitedHealthcare,16,FALSE
+430,Patient 430,Female,2007-12-17 00:00:00,18,A+,619-555-2430,patient430@mail.com,San Diego,Yes,Blue Cross,18,FALSE
+431,Patient 431,Male,1962-09-07 00:00:00,64,A+,213-555-2431,patient431@mail.com,Los Angeles,Yes,Blue Cross,64,FALSE
+432,Patient 432,Male,2021-12-12 00:00:00,4,A+,602-555-2432,patient432@mail.com,Phoenix,Yes,Cigna,4,FALSE
+433,Patient 433,Male,2013-07-02 00:00:00,13,O-,213-555-2433,patient433@mail.com,Los Angeles,Yes,Cigna,13,FALSE
+434,Patient 434,Female,1987-03-14 00:00:00,39,O+,602-555-2434,patient434@mail.com,Phoenix,Yes,Aetna,39,FALSE
+435,Patient 435,Male,2023-11-23 00:00:00,2,AB-,312-555-2435,patient435@mail.com,Chicago,Yes,Medicaid,2,FALSE
+436,Patient 436,Male,2003-09-03 00:00:00,23,O+,312-555-2436,patient436@mail.com,Chicago,Yes,UnitedHealthcare,23,FALSE
+437,Patient 437,Female,2003-10-08 00:00:00,22,O+,213-555-2437,patient437@mail.com,Los Angeles,Yes,UnitedHealthcare,22,FALSE
+438,Patient 438,Female,2021-11-20 00:00:00,4,B+,212-555-2438,patient438@mail.com,New York,Yes,Medicaid,4,FALSE
+439,Patient 439,Female,1975-05-19 00:00:00,51,O-,602-555-2439,patient439@mail.com,Phoenix,Yes,Cigna,51,FALSE
+440,Patient 440,Male,1979-09-17 00:00:00,47,A+,602-555-2440,patient440@mail.com,Phoenix,Yes,Cigna,47,FALSE
+441,Patient 441,Male,1946-06-23 00:00:00,80,B-,213-555-2441,patient441@mail.com,Los Angeles,Yes,Medicare,80,FALSE
+442,Patient 442,Male,2000-12-08 00:00:00,25,O+,213-555-2442,patient442@mail.com,Los Angeles,Yes,Aetna,25,FALSE
+443,Patient 443,Female,1972-08-01 00:00:00,54,A+,602-555-2443,patient443@mail.com,Phoenix,Yes,Cigna,54,FALSE
+444,Patient 444,Male,1950-05-31 00:00:00,76,O+,619-555-2444,patient444@mail.com,San Diego,Yes,Medicare,76,FALSE
+445,Patient 445,Female,1971-01-19 00:00:00,55,B+,312-555-2445,patient445@mail.com,Chicago,Yes,Cigna,55,FALSE
+446,Patient 446,Female,1996-01-16 00:00:00,30,B+,312-555-2446,patient446@mail.com,Chicago,Yes,Medicaid,30,FALSE
+447,Patient 447,Female,2011-11-01 00:00:00,14,B+,602-555-2447,patient447@mail.com,Phoenix,Yes,Cigna,14,FALSE
+448,Patient 448,Male,2011-07-22 00:00:00,15,O+,619-555-2448,patient448@mail.com,San Diego,Yes,Medicaid,15,FALSE
+449,Patient 449,Female,1948-02-20 00:00:00,78,A+,212-555-2449,patient449@mail.com,New York,Yes,Medicare,78,FALSE
+450,Patient 450,Female,2007-01-28 00:00:00,19,A+,212-555-2450,patient450@mail.com,New York,Yes,Medicaid,19,FALSE
+451,Patient 451,Male,2021-02-23 00:00:00,5,O+,212-555-2451,patient451@mail.com,New York,Yes,UnitedHealthcare,5,FALSE
+452,Patient 452,Female,2011-05-24 00:00:00,15,A+,619-555-2452,patient452@mail.com,San Diego,Yes,Cigna,15,FALSE
+453,Patient 453,Female,2003-05-30 00:00:00,23,A+,619-555-2453,patient453@mail.com,San Diego,Yes,Aetna,23,FALSE
+454,Patient 454,Female,1961-08-16 00:00:00,65,O+,213-555-2454,patient454@mail.com,Los Angeles,Yes,Medicare,65,FALSE
+455,Patient 455,Male,1956-05-09 00:00:00,70,O+,312-555-2455,patient455@mail.com,Chicago,Yes,Medicare,70,FALSE
+456,Patient 456,Female,2006-12-14 00:00:00,19,A+,213-555-2456,patient456@mail.com,Los Angeles,Yes,Cigna,19,FALSE
+457,Patient 457,Male,2010-02-04 00:00:00,16,A+,312-555-2457,patient457@mail.com,Chicago,Yes,UnitedHealthcare,16,FALSE
+458,Patient 458,Female,1987-06-05 00:00:00,39,A-,212-555-2458,patient458@mail.com,New York,Yes,UnitedHealthcare,39,FALSE
+459,Patient 459,Female,2007-11-02 00:00:00,18,A+,213-555-2459,patient459@mail.com,Los Angeles,Yes,UnitedHealthcare,18,FALSE
+460,Patient 460,Female,1961-08-31 00:00:00,65,B+,619-555-2460,patient460@mail.com,San Diego,Yes,Medicare,65,FALSE
+461,Patient 461,Male,1981-09-16 00:00:00,45,A+,312-555-2461,patient461@mail.com,Chicago,Yes,UnitedHealthcare,45,FALSE
+462,Patient 462,Male,1957-03-22 00:00:00,69,O+,312-555-2462,patient462@mail.com,Chicago,Yes,Medicare,69,FALSE
+463,Patient 463,Male,1979-03-06 00:00:00,47,A+,602-555-2463,patient463@mail.com,Phoenix,Yes,Aetna,47,FALSE
+464,Patient 464,Female,2026-06-09 00:00:00,0,O+,602-555-2464,patient464@mail.com,Phoenix,Yes,Blue Cross,0,FALSE
+465,Patient 465,Female,2006-08-12 00:00:00,20,AB+,212-555-2465,patient465@mail.com,New York,Yes,UnitedHealthcare,20,FALSE
+466,Patient 466,Female,1955-03-05 00:00:00,71,A+,212-555-2466,patient466@mail.com,New York,Yes,Medicare,71,FALSE
+467,Patient 467,Female,2004-01-22 00:00:00,22,O+,602-555-2467,patient467@mail.com,Phoenix,Yes,Aetna,22,FALSE
+468,Patient 468,Female,1979-11-21 00:00:00,46,A-,602-555-2468,patient468@mail.com,Phoenix,Yes,Cigna,46,FALSE
+469,Patient 469,Female,2011-05-17 00:00:00,15,O+,619-555-2469,patient469@mail.com,San Diego,Yes,Medicaid,15,FALSE
+470,Patient 470,Male,1955-04-02 00:00:00,71,O-,212-555-2470,patient470@mail.com,New York,Yes,Medicare,71,FALSE
+471,Patient 471,Male,2020-12-01 00:00:00,5,B+,602-555-2471,patient471@mail.com,Phoenix,Yes,Aetna,5,FALSE
+472,Patient 472,Male,1962-02-08 00:00:00,64,O+,212-555-2472,patient472@mail.com,New York,Yes,Aetna,64,FALSE
+473,Patient 473,Male,2015-12-25 00:00:00,10,A-,602-555-2473,patient473@mail.com,Phoenix,Yes,Medicaid,10,FALSE
+474,Patient 474,Male,2012-02-23 00:00:00,14,A+,602-555-2474,patient474@mail.com,Phoenix,Yes,Cigna,14,FALSE
+475,Patient 475,Male,2026-05-04 00:00:00,0,O+,619-555-2475,patient475@mail.com,San Diego,Yes,Medicaid,0,FALSE
+476,Patient 476,Female,1981-09-22 00:00:00,45,A+,212-555-2476,patient476@mail.com,New York,No,Self-Pay,45,FALSE
+477,Patient 477,Male,1993-08-12 00:00:00,33,O+,213-555-2477,patient477@mail.com,Los Angeles,Yes,UnitedHealthcare,33,FALSE
+478,Patient 478,Female,1957-05-01 00:00:00,69,AB+,619-555-2478,patient478@mail.com,San Diego,Yes,Medicare,69,FALSE
+479,Patient 479,Male,1981-11-18 00:00:00,44,B+,602-555-2479,patient479@mail.com,Phoenix,Yes,UnitedHealthcare,44,FALSE
+480,Patient 480,Male,1974-01-21 00:00:00,52,B+,602-555-2480,patient480@mail.com,Phoenix,Yes,Cigna,52,FALSE
+481,Patient 481,Female,1980-05-12 00:00:00,46,O+,213-555-2481,patient481@mail.com,Los Angeles,Yes,Blue Cross,46,FALSE
+482,Patient 482,Female,1980-04-03 00:00:00,46,O-,602-555-2482,patient482@mail.com,Phoenix,Yes,UnitedHealthcare,46,FALSE
+483,Patient 483,Female,1985-07-03 00:00:00,41,O+,213-555-2483,patient483@mail.com,Los Angeles,Yes,Aetna,41,FALSE
+484,Patient 484,Male,1938-12-11 00:00:00,87,O+,212-555-2484,patient484@mail.com,New York,Yes,Medicare,87,FALSE
+485,Patient 485,Male,1979-02-01 00:00:00,47,O+,602-555-2485,patient485@mail.com,Phoenix,Yes,Blue Cross,47,FALSE
+486,Patient 486,Female,2015-08-04 00:00:00,11,B+,312-555-2486,patient486@mail.com,Chicago,Yes,Blue Cross,11,FALSE
+487,Patient 487,Male,1960-05-28 00:00:00,66,O+,212-555-2487,patient487@mail.com,New York,Yes,Medicare,66,FALSE
+488,Patient 488,Female,1957-12-15 00:00:00,68,O-,312-555-2488,patient488@mail.com,Chicago,Yes,Medicare,68,FALSE
+489,Patient 489,Male,1972-01-08 00:00:00,54,B+,619-555-2489,patient489@mail.com,San Diego,Yes,Medicaid,54,FALSE
+490,Patient 490,Male,1948-05-03 00:00:00,78,O-,212-555-2490,patient490@mail.com,New York,Yes,Medicare,78,FALSE
+491,Patient 491,Male,2024-11-23 00:00:00,1,A+,213-555-2491,patient491@mail.com,Los Angeles,Yes,Medicaid,1,FALSE
+492,Patient 492,Female,1982-12-18 00:00:00,43,A+,212-555-2492,patient492@mail.com,New York,Yes,Aetna,43,FALSE
+493,Patient 493,Female,1973-07-29 00:00:00,53,O+,312-555-2493,patient493@mail.com,Chicago,Yes,Medicaid,53,FALSE
+494,Patient 494,Male,1980-01-03 00:00:00,46,B-,213-555-2494,patient494@mail.com,Los Angeles,Yes,UnitedHealthcare,46,FALSE
+495,Patient 495,Female,1991-12-09 00:00:00,34,O+,602-555-2495,patient495@mail.com,Phoenix,Yes,UnitedHealthcare,34,FALSE
+496,Patient 496,Male,1998-04-14 00:00:00,28,AB+,212-555-2496,patient496@mail.com,New York,Yes,UnitedHealthcare,28,FALSE
+497,Patient 497,Male,1950-09-23 00:00:00,76,O-,312-555-2497,patient497@mail.com,Chicago,Yes,Medicare,76,FALSE
+498,Patient 498,Male,1938-10-19 00:00:00,87,AB-,602-555-2498,patient498@mail.com,Phoenix,Yes,Medicare,87,FALSE
+499,Patient 499,Female,1939-09-06 00:00:00,87,O+,619-555-2499,patient499@mail.com,San Diego,Yes,Medicare,87,FALSE
+500,Patient 500,Male,2012-11-18 00:00:00,13,AB-,619-555-2500,patient500@mail.com,San Diego,Yes,Medicaid,13,FALSE
+501,Patient 501,Female,1966-03-20 00:00:00,60,O+,213-555-2501,patient501@mail.com,Los Angeles,Yes,UnitedHealthcare,60,FALSE
+502,Patient 502,Male,2024-12-10 00:00:00,1,A+,619-555-2502,patient502@mail.com,San Diego,Yes,Blue Cross,1,FALSE
+503,Patient 503,Female,2004-06-06 00:00:00,22,O+,212-555-2503,patient503@mail.com,New York,Yes,Medicaid,22,FALSE
+504,Patient 504,Female,1957-10-05 00:00:00,68,B+,312-555-2504,patient504@mail.com,Chicago,Yes,Medicare,68,FALSE
+505,Patient 505,Male,2026-08-13 00:00:00,0,O+,619-555-2505,patient505@mail.com,San Diego,Yes,Medicaid,0,FALSE
+506,Patient 506,Female,1943-05-18 00:00:00,83,O+,619-555-2506,patient506@mail.com,San Diego,No,Self-Pay,83,FALSE
+507,Patient 507,Female,1942-05-02 00:00:00,84,O+,212-555-2507,patient507@mail.com,New York,Yes,Medicare,84,FALSE
+508,Patient 508,Female,1998-10-06 00:00:00,27,O+,312-555-2508,patient508@mail.com,Chicago,Yes,Medicaid,27,FALSE
+509,Patient 509,Male,1957-08-19 00:00:00,69,O+,212-555-2509,patient509@mail.com,New York,Yes,Medicare,69,FALSE
+510,Patient 510,Female,1942-01-01 00:00:00,84,O+,602-555-2510,patient510@mail.com,Phoenix,Yes,Medicare,84,FALSE
+511,Patient 511,Male,1946-11-18 00:00:00,79,AB-,312-555-2511,patient511@mail.com,Chicago,Yes,Medicare,79,FALSE
+512,Patient 512,Female,1997-05-04 00:00:00,29,A+,213-555-2512,patient512@mail.com,Los Angeles,No,Self-Pay,29,FALSE
+513,Patient 513,Female,1956-09-15 00:00:00,70,A+,602-555-2513,patient513@mail.com,Phoenix,Yes,Medicare,70,FALSE
+514,Patient 514,Female,2014-12-20 00:00:00,11,O+,212-555-2514,patient514@mail.com,New York,Yes,Aetna,11,FALSE
+515,Patient 515,Female,1984-11-07 00:00:00,41,A+,602-555-2515,patient515@mail.com,Phoenix,Yes,Medicaid,41,FALSE
+516,Patient 516,Female,1982-05-05 00:00:00,44,O+,312-555-2516,patient516@mail.com,Chicago,Yes,Aetna,44,FALSE
+517,Patient 517,Male,1974-10-28 00:00:00,51,A+,602-555-2517,patient517@mail.com,Phoenix,Yes,Aetna,51,FALSE
+518,Patient 518,Female,1982-09-28 00:00:00,44,O-,602-555-2518,patient518@mail.com,Phoenix,Yes,Aetna,44,FALSE
+519,Patient 519,Female,2000-06-21 00:00:00,26,O+,619-555-2519,patient519@mail.com,San Diego,Yes,UnitedHealthcare,26,FALSE
+520,Patient 520,Male,1974-12-11 00:00:00,51,O+,212-555-2520,patient520@mail.com,New York,Yes,Cigna,51,FALSE
+521,Patient 521,Male,2020-02-05 00:00:00,6,A+,602-555-2521,patient521@mail.com,Phoenix,Yes,Medicaid,6,FALSE
+522,Patient 522,Male,1962-06-16 00:00:00,64,AB+,619-555-2522,patient522@mail.com,San Diego,Yes,Cigna,64,FALSE
+523,Patient 523,Male,1975-12-19 00:00:00,50,O+,312-555-2523,patient523@mail.com,Chicago,Yes,UnitedHealthcare,50,FALSE
+524,Patient 524,Female,1982-12-07 00:00:00,43,A+,619-555-2524,patient524@mail.com,San Diego,Yes,Aetna,43,FALSE
+525,Patient 525,Female,2001-06-27 00:00:00,25,B-,312-555-2525,patient525@mail.com,Chicago,Yes,Aetna,25,FALSE
+526,Patient 526,Male,1975-01-14 00:00:00,51,O-,213-555-2526,patient526@mail.com,Los Angeles,Yes,Blue Cross,51,FALSE
+527,Patient 527,Female,1964-10-28 00:00:00,61,O+,602-555-2527,patient527@mail.com,Phoenix,Yes,Blue Cross,61,FALSE
+528,Patient 528,Male,1977-11-02 00:00:00,48,O+,312-555-2528,patient528@mail.com,Chicago,Yes,Blue Cross,48,FALSE
+529,Patient 529,Female,1977-08-29 00:00:00,49,O-,619-555-2529,patient529@mail.com,San Diego,Yes,Medicaid,49,FALSE
+530,Patient 530,Female,1991-01-25 00:00:00,35,AB-,619-555-2530,patient530@mail.com,San Diego,Yes,UnitedHealthcare,35,FALSE
+531,Patient 531,Male,2006-10-11 00:00:00,19,O+,212-555-2531,patient531@mail.com,New York,Yes,UnitedHealthcare,19,FALSE
+532,Patient 532,Female,2008-03-27 00:00:00,18,B+,212-555-2532,patient532@mail.com,New York,Yes,Cigna,18,FALSE
+533,Patient 533,Male,1972-11-08 00:00:00,53,B+,312-555-2533,patient533@mail.com,Chicago,Yes,Aetna,53,FALSE
+534,Patient 534,Male,2024-08-20 00:00:00,2,A+,213-555-2534,patient534@mail.com,Los Angeles,Yes,Aetna,2,FALSE
+535,Patient 535,Female,1997-11-23 00:00:00,28,A+,312-555-2535,patient535@mail.com,Chicago,Yes,Blue Cross,28,FALSE
+536,Patient 536,Female,1969-01-10 00:00:00,57,B+,213-555-2536,patient536@mail.com,Los Angeles,Yes,Aetna,57,FALSE
+537,Patient 537,Male,1963-08-19 00:00:00,63,O-,602-555-2537,patient537@mail.com,Phoenix,Yes,Aetna,63,FALSE
+538,Patient 538,Female,2008-10-08 00:00:00,17,B+,312-555-2538,patient538@mail.com,Chicago,Yes,Medicaid,17,FALSE
+539,Patient 539,Male,1967-10-14 00:00:00,58,O-,619-555-2539,patient539@mail.com,San Diego,Yes,Aetna,58,FALSE
+540,Patient 540,Male,2011-09-30 00:00:00,15,O-,312-555-2540,patient540@mail.com,Chicago,Yes,Aetna,15,FALSE
+541,Patient 541,Female,1937-07-23 00:00:00,89,A+,312-555-2541,patient541@mail.com,Chicago,Yes,Medicare,89,FALSE
+542,Patient 542,Male,1970-07-30 00:00:00,56,O+,213-555-2542,patient542@mail.com,Los Angeles,No,Self-Pay,56,FALSE
+543,Patient 543,Male,2026-06-16 00:00:00,0,A+,619-555-2543,patient543@mail.com,San Diego,Yes,UnitedHealthcare,0,FALSE
+544,Patient 544,Male,1964-07-17 00:00:00,62,O+,619-555-2544,patient544@mail.com,San Diego,Yes,UnitedHealthcare,62,FALSE
+545,Patient 545,Female,1939-11-19 00:00:00,86,O+,212-555-2545,patient545@mail.com,New York,Yes,Medicare,86,FALSE
+546,Patient 546,Male,2025-04-24 00:00:00,1,A+,602-555-2546,patient546@mail.com,Phoenix,Yes,Blue Cross,1,FALSE
+547,Patient 547,Female,1981-07-31 00:00:00,45,A+,602-555-2547,patient547@mail.com,Phoenix,No,Self-Pay,45,FALSE
+548,Patient 548,Male,1996-10-20 00:00:00,29,O+,619-555-2548,patient548@mail.com,San Diego,Yes,UnitedHealthcare,29,FALSE
+549,Patient 549,Male,2004-09-06 00:00:00,22,O+,212-555-2549,patient549@mail.com,New York,Yes,Medicaid,22,FALSE
+550,Patient 550,Male,2020-01-14 00:00:00,6,O+,213-555-2550,patient550@mail.com,Los Angeles,Yes,Aetna,6,FALSE
+551,Patient 551,Male,1991-07-11 00:00:00,35,A+,213-555-2551,patient551@mail.com,Los Angeles,Yes,Medicaid,35,FALSE
+552,Patient 552,Female,2026-03-03 00:00:00,0,AB+,602-555-2552,patient552@mail.com,Phoenix,Yes,Medicaid,0,FALSE
+553,Patient 553,Male,2002-09-02 00:00:00,24,A+,212-555-2553,patient553@mail.com,New York,Yes,Medicaid,24,FALSE
+554,Patient 554,Male,1977-03-08 00:00:00,49,O+,619-555-2554,patient554@mail.com,San Diego,Yes,Cigna,49,FALSE
+555,Patient 555,Female,1963-09-19 00:00:00,63,A+,602-555-2555,patient555@mail.com,Phoenix,Yes,Blue Cross,63,FALSE
+556,Patient 556,Male,1959-05-04 00:00:00,67,O-,602-555-2556,patient556@mail.com,Phoenix,Yes,Medicare,67,FALSE
+557,Patient 557,Male,1972-01-05 00:00:00,54,A+,619-555-2557,patient557@mail.com,San Diego,Yes,Cigna,54,FALSE
+558,Patient 558,Female,2002-10-14 00:00:00,23,O+,212-555-2558,patient558@mail.com,New York,Yes,Blue Cross,23,FALSE
+559,Patient 559,Female,1945-10-06 00:00:00,80,A+,602-555-2559,patient559@mail.com,Phoenix,Yes,Medicare,80,FALSE
+560,Patient 560,Male,2016-05-13 00:00:00,10,AB+,212-555-2560,patient560@mail.com,New York,Yes,Medicaid,10,FALSE
+561,Patient 561,Female,2016-11-02 00:00:00,9,O+,602-555-2561,patient561@mail.com,Phoenix,Yes,Medicaid,9,FALSE
+562,Patient 562,Female,1973-04-30 00:00:00,53,AB+,602-555-2562,patient562@mail.com,Phoenix,Yes,Medicaid,53,FALSE
+563,Patient 563,Female,1954-10-30 00:00:00,71,AB+,312-555-2563,patient563@mail.com,Chicago,Yes,Medicare,71,FALSE
+564,Patient 564,Female,2010-03-06 00:00:00,16,B+,312-555-2564,patient564@mail.com,Chicago,No,Self-Pay,16,FALSE
+565,Patient 565,Female,2001-06-21 00:00:00,25,O+,602-555-2565,patient565@mail.com,Phoenix,Yes,UnitedHealthcare,25,FALSE
+566,Patient 566,Male,1972-02-26 00:00:00,54,A+,312-555-2566,patient566@mail.com,Chicago,Yes,Cigna,54,FALSE
+567,Patient 567,Female,1989-01-04 00:00:00,37,A+,619-555-2567,patient567@mail.com,San Diego,Yes,Blue Cross,37,FALSE
+568,Patient 568,Male,1992-07-31 00:00:00,34,A+,212-555-2568,patient568@mail.com,New York,No,Self-Pay,34,FALSE
+569,Patient 569,Female,2016-08-30 00:00:00,10,A+,312-555-2569,patient569@mail.com,Chicago,Yes,Blue Cross,10,FALSE
+570,Patient 570,Female,1943-02-07 00:00:00,83,O+,619-555-2570,patient570@mail.com,San Diego,Yes,Medicare,83,FALSE
+571,Patient 571,Female,1952-03-22 00:00:00,74,O+,213-555-2571,patient571@mail.com,Los Angeles,Yes,Medicare,74,FALSE
+572,Patient 572,Male,1959-06-21 00:00:00,67,A+,312-555-2572,patient572@mail.com,Chicago,Yes,Medicare,67,FALSE
+573,Patient 573,Female,1983-05-11 00:00:00,43,AB+,212-555-2573,patient573@mail.com,New York,Yes,Blue Cross,43,FALSE
+574,Patient 574,Female,1938-05-20 00:00:00,88,O+,213-555-2574,patient574@mail.com,Los Angeles,Yes,Medicare,88,FALSE
+575,Patient 575,Male,2012-11-22 00:00:00,13,B+,619-555-2575,patient575@mail.com,San Diego,Yes,Medicaid,13,FALSE
+576,Patient 576,Female,1944-06-07 00:00:00,82,A+,602-555-2576,patient576@mail.com,Phoenix,Yes,Medicare,82,FALSE
+577,Patient 577,Female,1996-08-08 00:00:00,30,AB-,213-555-2577,patient577@mail.com,Los Angeles,Yes,UnitedHealthcare,30,FALSE
+578,Patient 578,Female,2001-03-11 00:00:00,25,B+,602-555-2578,patient578@mail.com,Phoenix,Yes,UnitedHealthcare,25,FALSE
+579,Patient 579,Male,1978-10-27 00:00:00,47,O+,602-555-2579,patient579@mail.com,Phoenix,Yes,Cigna,47,FALSE
+580,Patient 580,Male,1969-04-23 00:00:00,57,A+,213-555-2580,patient580@mail.com,Los Angeles,Yes,UnitedHealthcare,57,FALSE
+581,Patient 581,Male,2011-11-28 00:00:00,14,O+,312-555-2581,patient581@mail.com,Chicago,Yes,Blue Cross,14,FALSE
+582,Patient 582,Male,1942-01-08 00:00:00,84,A+,602-555-2582,patient582@mail.com,Phoenix,No,Self-Pay,84,FALSE
+583,Patient 583,Female,2024-10-25 00:00:00,1,O-,213-555-2583,patient583@mail.com,Los Angeles,Yes,Cigna,1,FALSE
+584,Patient 584,Female,1967-11-20 00:00:00,58,A+,312-555-2584,patient584@mail.com,Chicago,Yes,UnitedHealthcare,58,FALSE
+585,Patient 585,Male,2012-05-12 00:00:00,14,AB-,213-555-2585,patient585@mail.com,Los Angeles,No,Self-Pay,14,FALSE
+586,Patient 586,Female,1988-09-03 00:00:00,38,O+,312-555-2586,patient586@mail.com,Chicago,Yes,UnitedHealthcare,38,FALSE
+587,Patient 587,Female,2018-07-29 00:00:00,8,B-,602-555-2587,patient587@mail.com,Phoenix,Yes,Cigna,8,FALSE
+588,Patient 588,Female,1953-06-22 00:00:00,73,A+,312-555-2588,patient588@mail.com,Chicago,Yes,Medicare,73,FALSE
+589,Patient 589,Male,1946-07-01 00:00:00,80,A-,212-555-2589,patient589@mail.com,New York,Yes,Medicare,80,FALSE
+590,Patient 590,Male,2010-02-04 00:00:00,16,O+,212-555-2590,patient590@mail.com,New York,Yes,Aetna,16,FALSE
+591,Patient 591,Female,1940-05-31 00:00:00,86,A+,212-555-2591,patient591@mail.com,New York,Yes,Medicare,86,FALSE
+592,Patient 592,Female,1966-01-08 00:00:00,60,O+,602-555-2592,patient592@mail.com,Phoenix,Yes,Aetna,60,FALSE
+593,Patient 593,Male,1967-06-07 00:00:00,59,A+,602-555-2593,patient593@mail.com,Phoenix,Yes,UnitedHealthcare,59,FALSE
+594,Patient 594,Male,1946-06-03 00:00:00,80,O+,602-555-2594,patient594@mail.com,Phoenix,Yes,Medicare,80,FALSE
+595,Patient 595,Male,1949-12-15 00:00:00,76,O+,213-555-2595,patient595@mail.com,Los Angeles,Yes,Medicare,76,FALSE
+596,Patient 596,Female,2004-08-09 00:00:00,22,B+,213-555-2596,patient596@mail.com,Los Angeles,Yes,Cigna,22,FALSE
+597,Patient 597,Female,1981-09-12 00:00:00,45,O+,619-555-2597,patient597@mail.com,San Diego,Yes,UnitedHealthcare,45,FALSE
+598,Patient 598,Female,1975-03-19 00:00:00,51,A+,602-555-2598,patient598@mail.com,Phoenix,No,Self-Pay,51,FALSE
+599,Patient 599,Female,1981-12-10 00:00:00,44,A+,212-555-2599,patient599@mail.com,New York,Yes,Medicaid,44,FALSE
+600,Patient 600,Male,2005-05-11 00:00:00,21,A+,213-555-2600,patient600@mail.com,Los Angeles,Yes,Blue Cross,21,FALSE
+601,Patient 601,Male,1958-05-23 00:00:00,68,A+,602-555-2601,patient601@mail.com,Phoenix,Yes,Medicare,68,FALSE
+602,Patient 602,Female,1985-08-08 00:00:00,41,A+,602-555-2602,patient602@mail.com,Phoenix,Yes,UnitedHealthcare,41,FALSE
+603,Patient 603,Female,1982-07-11 00:00:00,44,O+,212-555-2603,patient603@mail.com,New York,Yes,UnitedHealthcare,44,FALSE
+604,Patient 604,Female,1959-07-28 00:00:00,67,O-,212-555-2604,patient604@mail.com,New York,Yes,Medicare,67,FALSE
+605,Patient 605,Male,1975-02-11 00:00:00,51,A+,312-555-2605,patient605@mail.com,Chicago,No,Self-Pay,51,FALSE
+606,Patient 606,Male,1944-04-07 00:00:00,82,A+,212-555-2606,patient606@mail.com,New York,Yes,Medicare,82,FALSE
+607,Patient 607,Female,2013-10-15 00:00:00,12,B+,602-555-2607,patient607@mail.com,Phoenix,Yes,Cigna,12,FALSE
+608,Patient 608,Male,1952-02-22 00:00:00,74,A-,312-555-2608,patient608@mail.com,Chicago,Yes,Medicare,74,FALSE
+609,Patient 609,Male,1946-12-09 00:00:00,79,O+,213-555-2609,patient609@mail.com,Los Angeles,Yes,Medicare,79,FALSE
+610,Patient 610,Male,1956-05-04 00:00:00,70,O+,602-555-2610,patient610@mail.com,Phoenix,Yes,Medicare,70,FALSE
+611,Patient 611,Female,2001-08-22 00:00:00,25,O+,312-555-2611,patient611@mail.com,Chicago,Yes,Blue Cross,25,FALSE
+612,Patient 612,Female,2019-10-28 00:00:00,6,O-,602-555-2612,patient612@mail.com,Phoenix,Yes,Medicaid,6,FALSE
+613,Patient 613,Male,1994-11-03 00:00:00,31,O+,602-555-2613,patient613@mail.com,Phoenix,Yes,Blue Cross,31,FALSE
+614,Patient 614,Male,1993-06-06 00:00:00,33,A+,312-555-2614,patient614@mail.com,Chicago,Yes,Aetna,33,FALSE
+615,Patient 615,Female,1993-10-02 00:00:00,32,O+,602-555-2615,patient615@mail.com,Phoenix,Yes,Blue Cross,32,FALSE
+616,Patient 616,Female,1937-11-19 00:00:00,88,B-,213-555-2616,patient616@mail.com,Los Angeles,Yes,Medicare,88,FALSE
+617,Patient 617,Female,2002-02-24 00:00:00,24,O+,619-555-2617,patient617@mail.com,San Diego,Yes,Medicaid,24,FALSE
+618,Patient 618,Male,2006-07-19 00:00:00,20,A+,602-555-2618,patient618@mail.com,Phoenix,Yes,Cigna,20,FALSE
+619,Patient 619,Male,2003-07-18 00:00:00,23,O+,212-555-2619,patient619@mail.com,New York,No,Self-Pay,23,FALSE
+620,Patient 620,Female,1969-12-14 00:00:00,56,A+,212-555-2620,patient620@mail.com,New York,No,Self-Pay,56,FALSE
+621,Patient 621,Female,1969-03-31 00:00:00,57,A+,312-555-2621,patient621@mail.com,Chicago,No,Self-Pay,57,FALSE
+622,Patient 622,Male,2024-07-11 00:00:00,2,A+,619-555-2622,patient622@mail.com,San Diego,Yes,Cigna,2,FALSE
+623,Patient 623,Male,1999-03-26 00:00:00,27,O+,213-555-2623,patient623@mail.com,Los Angeles,Yes,Blue Cross,27,FALSE
+624,Patient 624,Male,1974-03-19 00:00:00,52,A+,212-555-2624,patient624@mail.com,New York,No,Self-Pay,52,FALSE
+625,Patient 625,Female,2010-12-11 00:00:00,15,A-,213-555-2625,patient625@mail.com,Los Angeles,Yes,Aetna,15,FALSE
+626,Patient 626,Male,1967-06-30 00:00:00,59,B+,602-555-2626,patient626@mail.com,Phoenix,Yes,Aetna,59,FALSE
+627,Patient 627,Female,2025-10-27 00:00:00,0,A+,312-555-2627,patient627@mail.com,Chicago,Yes,Blue Cross,0,FALSE
+628,Patient 628,Male,1961-12-11 00:00:00,64,A+,602-555-2628,patient628@mail.com,Phoenix,Yes,UnitedHealthcare,64,FALSE
+629,Patient 629,Male,1952-03-05 00:00:00,74,B+,212-555-2629,patient629@mail.com,New York,Yes,Medicare,74,FALSE
+630,Patient 630,Male,1989-08-30 00:00:00,37,O+,212-555-2630,patient630@mail.com,New York,Yes,Blue Cross,37,FALSE
+631,Patient 631,Female,1988-07-24 00:00:00,38,O-,619-555-2631,patient631@mail.com,San Diego,Yes,UnitedHealthcare,38,FALSE
+632,Patient 632,Male,1979-07-24 00:00:00,47,O+,602-555-2632,patient632@mail.com,Phoenix,No,Self-Pay,47,FALSE
+633,Patient 633,Female,2025-10-07 00:00:00,0,O+,212-555-2633,patient633@mail.com,New York,Yes,Blue Cross,0,FALSE
+634,Patient 634,Male,2011-11-09 00:00:00,14,A+,212-555-2634,patient634@mail.com,New York,Yes,Medicaid,14,FALSE
+635,Patient 635,Male,2007-01-08 00:00:00,19,O+,312-555-2635,patient635@mail.com,Chicago,Yes,Blue Cross,19,FALSE
+636,Patient 636,Male,1976-03-08 00:00:00,50,O+,619-555-2636,patient636@mail.com,San Diego,No,Self-Pay,50,FALSE
+637,Patient 637,Male,1989-09-18 00:00:00,37,O-,602-555-2637,patient637@mail.com,Phoenix,Yes,Blue Cross,37,FALSE
+638,Patient 638,Male,2003-08-29 00:00:00,23,A+,212-555-2638,patient638@mail.com,New York,Yes,Blue Cross,23,FALSE
+639,Patient 639,Male,1971-06-05 00:00:00,55,O+,212-555-2639,patient639@mail.com,New York,Yes,Blue Cross,55,FALSE
+640,Patient 640,Male,1969-07-14 00:00:00,57,O+,212-555-2640,patient640@mail.com,New York,Yes,Blue Cross,57,FALSE
+641,Patient 641,Female,1991-10-12 00:00:00,34,A+,212-555-2641,patient641@mail.com,New York,Yes,UnitedHealthcare,34,FALSE
+642,Patient 642,Male,1951-03-03 00:00:00,75,O+,312-555-2642,patient642@mail.com,Chicago,No,Self-Pay,75,FALSE
+643,Patient 643,Male,1936-06-05 00:00:00,90,A+,602-555-2643,patient643@mail.com,Phoenix,Yes,Medicare,90,FALSE
+644,Patient 644,Female,2009-05-03 00:00:00,17,A+,213-555-2644,patient644@mail.com,Los Angeles,Yes,Aetna,17,FALSE
+645,Patient 645,Female,2025-10-28 00:00:00,0,B+,213-555-2645,patient645@mail.com,Los Angeles,Yes,Aetna,0,FALSE
+646,Patient 646,Male,2004-06-28 00:00:00,22,O+,212-555-2646,patient646@mail.com,New York,Yes,UnitedHealthcare,22,FALSE
+647,Patient 647,Female,1989-11-14 00:00:00,36,O-,213-555-2647,patient647@mail.com,Los Angeles,Yes,UnitedHealthcare,36,FALSE
+648,Patient 648,Male,1997-04-30 00:00:00,29,A+,212-555-2648,patient648@mail.com,New York,Yes,Blue Cross,29,FALSE
+649,Patient 649,Female,1986-03-17 00:00:00,40,O+,602-555-2649,patient649@mail.com,Phoenix,Yes,Aetna,40,FALSE
+650,Patient 650,Female,2000-05-31 00:00:00,26,AB-,619-555-2650,patient650@mail.com,San Diego,Yes,Aetna,26,FALSE
+651,Patient 651,Male,1979-12-28 00:00:00,46,B+,619-555-2651,patient651@mail.com,San Diego,Yes,UnitedHealthcare,46,FALSE
+652,Patient 652,Male,2001-07-17 00:00:00,25,A+,213-555-2652,patient652@mail.com,Los Angeles,No,Self-Pay,25,FALSE
+653,Patient 653,Female,2014-08-07 00:00:00,12,A+,213-555-2653,patient653@mail.com,Los Angeles,Yes,Cigna,12,FALSE
+654,Patient 654,Female,1992-12-27 00:00:00,33,A+,213-555-2654,patient654@mail.com,Los Angeles,No,Self-Pay,33,FALSE
+655,Patient 655,Female,1997-05-27 00:00:00,29,AB+,312-555-2655,patient655@mail.com,Chicago,Yes,UnitedHealthcare,29,FALSE
+656,Patient 656,Female,2011-07-29 00:00:00,15,B+,619-555-2656,patient656@mail.com,San Diego,Yes,UnitedHealthcare,15,FALSE
+657,Patient 657,Female,1963-05-23 00:00:00,63,B+,212-555-2657,patient657@mail.com,New York,Yes,UnitedHealthcare,63,FALSE
+658,Patient 658,Male,1966-03-17 00:00:00,60,A+,312-555-2658,patient658@mail.com,Chicago,Yes,Aetna,60,FALSE
+659,Patient 659,Female,2015-08-31 00:00:00,11,O+,312-555-2659,patient659@mail.com,Chicago,Yes,Medicaid,11,FALSE
+660,Patient 660,Female,2015-08-19 00:00:00,11,B+,602-555-2660,patient660@mail.com,Phoenix,Yes,UnitedHealthcare,11,FALSE
+661,Patient 661,Female,2016-05-23 00:00:00,10,A+,602-555-2661,patient661@mail.com,Phoenix,Yes,Blue Cross,10,FALSE
+662,Patient 662,Female,1984-10-26 00:00:00,41,A+,213-555-2662,patient662@mail.com,Los Angeles,Yes,Blue Cross,41,FALSE
+663,Patient 663,Female,1951-11-09 00:00:00,74,A-,212-555-2663,patient663@mail.com,New York,Yes,Medicare,74,FALSE
+664,Patient 664,Female,1997-05-17 00:00:00,29,A+,602-555-2664,patient664@mail.com,Phoenix,Yes,UnitedHealthcare,29,FALSE
+665,Patient 665,Female,1996-12-21 00:00:00,29,O+,602-555-2665,patient665@mail.com,Phoenix,Yes,Aetna,29,FALSE
+666,Patient 666,Male,1974-03-09 00:00:00,52,O-,213-555-2666,patient666@mail.com,Los Angeles,No,Self-Pay,52,FALSE
+667,Patient 667,Male,2017-05-18 00:00:00,9,O+,213-555-2667,patient667@mail.com,Los Angeles,Yes,Medicaid,9,FALSE
+668,Patient 668,Male,1945-12-15 00:00:00,80,A-,212-555-2668,patient668@mail.com,New York,Yes,Medicare,80,FALSE
+669,Patient 669,Male,1938-06-01 00:00:00,88,A-,213-555-2669,patient669@mail.com,Los Angeles,Yes,Medicare,88,FALSE
+670,Patient 670,Female,1965-03-25 00:00:00,61,O+,619-555-2670,patient670@mail.com,San Diego,Yes,Medicaid,61,FALSE
+671,Patient 671,Male,1937-11-10 00:00:00,88,B-,212-555-2671,patient671@mail.com,New York,Yes,Medicare,88,FALSE
+672,Patient 672,Female,1970-06-05 00:00:00,56,O+,212-555-2672,patient672@mail.com,New York,Yes,Aetna,56,FALSE
+673,Patient 673,Male,1955-01-05 00:00:00,71,O+,213-555-2673,patient673@mail.com,Los Angeles,Yes,Medicare,71,FALSE
+674,Patient 674,Female,2019-04-29 00:00:00,7,A-,312-555-2674,patient674@mail.com,Chicago,Yes,Medicaid,7,FALSE
+675,Patient 675,Male,1993-06-22 00:00:00,33,A+,602-555-2675,patient675@mail.com,Phoenix,Yes,Blue Cross,33,FALSE
+676,Patient 676,Female,1988-11-22 00:00:00,37,A+,602-555-2676,patient676@mail.com,Phoenix,Yes,Aetna,37,FALSE
+677,Patient 677,Male,2022-07-21 00:00:00,4,AB-,212-555-2677,patient677@mail.com,New York,Yes,Aetna,4,FALSE
+678,Patient 678,Female,1994-09-10 00:00:00,32,O+,312-555-2678,patient678@mail.com,Chicago,Yes,Aetna,32,FALSE
+679,Patient 679,Female,2025-04-23 00:00:00,1,B+,602-555-2679,patient679@mail.com,Phoenix,Yes,Medicaid,1,FALSE
+680,Patient 680,Male,1969-10-05 00:00:00,56,B+,213-555-2680,patient680@mail.com,Los Angeles,Yes,Cigna,56,FALSE
+681,Patient 681,Male,2014-12-16 00:00:00,11,O+,213-555-2681,patient681@mail.com,Los Angeles,Yes,UnitedHealthcare,11,FALSE
+682,Patient 682,Female,1992-02-29 00:00:00,34,A+,312-555-2682,patient682@mail.com,Chicago,Yes,UnitedHealthcare,34,FALSE
+683,Patient 683,Female,2020-08-03 00:00:00,6,O-,213-555-2683,patient683@mail.com,Los Angeles,Yes,Medicaid,6,FALSE
+684,Patient 684,Female,2022-03-25 00:00:00,4,O+,312-555-2684,patient684@mail.com,Chicago,Yes,Cigna,4,FALSE
+685,Patient 685,Male,1997-06-18 00:00:00,29,A+,213-555-2685,patient685@mail.com,Los Angeles,Yes,UnitedHealthcare,29,FALSE
+686,Patient 686,Male,1973-09-16 00:00:00,53,A+,619-555-2686,patient686@mail.com,San Diego,Yes,UnitedHealthcare,53,FALSE
+687,Patient 687,Male,2017-10-13 00:00:00,8,A-,213-555-2687,patient687@mail.com,Los Angeles,Yes,Blue Cross,8,FALSE
+688,Patient 688,Female,1971-07-29 00:00:00,55,A+,312-555-2688,patient688@mail.com,Chicago,Yes,Aetna,55,FALSE
+689,Patient 689,Male,2002-06-23 00:00:00,24,A+,213-555-2689,patient689@mail.com,Los Angeles,No,Self-Pay,24,FALSE
+690,Patient 690,Female,1992-06-17 00:00:00,34,A-,602-555-2690,patient690@mail.com,Phoenix,Yes,Blue Cross,34,FALSE
+691,Patient 691,Female,1973-03-04 00:00:00,53,O+,312-555-2691,patient691@mail.com,Chicago,No,Self-Pay,53,FALSE
+692,Patient 692,Female,1954-06-07 00:00:00,72,O+,619-555-2692,patient692@mail.com,San Diego,Yes,Medicare,72,FALSE
+693,Patient 693,Male,1985-01-09 00:00:00,41,A-,602-555-2693,patient693@mail.com,Phoenix,Yes,Aetna,41,FALSE
+694,Patient 694,Male,1961-11-10 00:00:00,64,O+,212-555-2694,patient694@mail.com,New York,Yes,Cigna,64,FALSE
+695,Patient 695,Female,1999-12-30 00:00:00,26,A+,213-555-2695,patient695@mail.com,Los Angeles,Yes,Blue Cross,26,FALSE
+696,Patient 696,Male,1942-07-22 00:00:00,84,O+,602-555-2696,patient696@mail.com,Phoenix,No,Self-Pay,84,FALSE
+697,Patient 697,Female,2025-08-08 00:00:00,1,AB-,212-555-2697,patient697@mail.com,New York,Yes,Aetna,1,FALSE
+698,Patient 698,Female,1953-10-07 00:00:00,72,O+,213-555-2698,patient698@mail.com,Los Angeles,Yes,Medicare,72,FALSE
+699,Patient 699,Male,1967-04-21 00:00:00,59,O+,212-555-2699,patient699@mail.com,New York,Yes,Cigna,59,FALSE
+700,Patient 700,Male,1981-02-03 00:00:00,45,O+,602-555-2700,patient700@mail.com,Phoenix,Yes,Medicaid,45,FALSE
+701,Patient 701,Male,1945-01-22 00:00:00,81,AB+,212-555-2701,patient701@mail.com,New York,Yes,Medicare,81,FALSE
+702,Patient 702,Male,1983-11-19 00:00:00,42,O+,212-555-2702,patient702@mail.com,New York,Yes,Aetna,42,FALSE
+703,Patient 703,Male,1958-06-18 00:00:00,68,A+,312-555-2703,patient703@mail.com,Chicago,Yes,Medicare,68,FALSE
+704,Patient 704,Female,1995-03-16 00:00:00,31,A+,212-555-2704,patient704@mail.com,New York,Yes,Blue Cross,31,FALSE
+705,Patient 705,Female,1977-09-16 00:00:00,49,O+,212-555-2705,patient705@mail.com,New York,Yes,UnitedHealthcare,49,FALSE
+706,Patient 706,Female,1965-11-09 00:00:00,60,A+,602-555-2706,patient706@mail.com,Phoenix,Yes,Aetna,60,FALSE
+707,Patient 707,Male,2008-02-08 00:00:00,18,O+,602-555-2707,patient707@mail.com,Phoenix,Yes,Blue Cross,18,FALSE
+708,Patient 708,Male,1967-07-22 00:00:00,59,B+,619-555-2708,patient708@mail.com,San Diego,Yes,UnitedHealthcare,59,FALSE
+709,Patient 709,Female,1991-08-02 00:00:00,35,A+,602-555-2709,patient709@mail.com,Phoenix,Yes,Aetna,35,FALSE
+710,Patient 710,Male,2023-10-23 00:00:00,2,A+,212-555-2710,patient710@mail.com,New York,Yes,Medicaid,2,FALSE
+711,Patient 711,Female,1975-03-25 00:00:00,51,A+,602-555-2711,patient711@mail.com,Phoenix,Yes,UnitedHealthcare,51,FALSE
+712,Patient 712,Female,1941-10-12 00:00:00,84,O+,213-555-2712,patient712@mail.com,Los Angeles,Yes,Medicare,84,FALSE
+713,Patient 713,Female,1941-02-10 00:00:00,85,O-,619-555-2713,patient713@mail.com,San Diego,Yes,Medicare,85,FALSE
+714,Patient 714,Male,1973-08-16 00:00:00,53,A+,619-555-2714,patient714@mail.com,San Diego,Yes,UnitedHealthcare,53,FALSE
+715,Patient 715,Male,1997-07-10 00:00:00,29,A-,619-555-2715,patient715@mail.com,San Diego,Yes,Aetna,29,FALSE
+716,Patient 716,Male,2011-08-27 00:00:00,15,A+,312-555-2716,patient716@mail.com,Chicago,Yes,Medicaid,15,FALSE
+717,Patient 717,Female,1972-05-11 00:00:00,54,O+,212-555-2717,patient717@mail.com,New York,No,Self-Pay,54,FALSE
+718,Patient 718,Male,1997-06-15 00:00:00,29,A+,619-555-2718,patient718@mail.com,San Diego,Yes,Blue Cross,29,FALSE
+719,Patient 719,Female,1972-07-25 00:00:00,54,O-,212-555-2719,patient719@mail.com,New York,Yes,UnitedHealthcare,54,FALSE
+720,Patient 720,Male,1997-05-26 00:00:00,29,A+,619-555-2720,patient720@mail.com,San Diego,Yes,Blue Cross,29,FALSE
+721,Patient 721,Male,1961-02-27 00:00:00,65,O+,602-555-2721,patient721@mail.com,Phoenix,Yes,Medicare,65,FALSE
+722,Patient 722,Male,2022-04-07 00:00:00,4,A+,602-555-2722,patient722@mail.com,Phoenix,Yes,Aetna,4,FALSE
+723,Patient 723,Male,1984-11-29 00:00:00,41,O+,212-555-2723,patient723@mail.com,New York,Yes,Aetna,41,FALSE
+724,Patient 724,Female,2018-01-09 00:00:00,8,B+,602-555-2724,patient724@mail.com,Phoenix,Yes,Medicaid,8,FALSE
+725,Patient 725,Female,1956-02-26 00:00:00,70,A+,213-555-2725,patient725@mail.com,Los Angeles,Yes,Medicare,70,FALSE
+726,Patient 726,Male,2016-08-24 00:00:00,10,O+,312-555-2726,patient726@mail.com,Chicago,Yes,Medicaid,10,FALSE
+727,Patient 727,Female,2003-02-17 00:00:00,23,O+,213-555-2727,patient727@mail.com,Los Angeles,Yes,Blue Cross,23,FALSE
+728,Patient 728,Female,2007-04-09 00:00:00,19,A+,312-555-2728,patient728@mail.com,Chicago,Yes,Blue Cross,19,FALSE
+729,Patient 729,Male,1979-07-16 00:00:00,47,A+,212-555-2729,patient729@mail.com,New York,Yes,Blue Cross,47,FALSE
+730,Patient 730,Female,1957-08-29 00:00:00,69,O+,312-555-2730,patient730@mail.com,Chicago,Yes,Medicare,69,FALSE
+731,Patient 731,Female,1953-08-09 00:00:00,73,O+,212-555-2731,patient731@mail.com,New York,Yes,Medicare,73,FALSE
+732,Patient 732,Male,1981-06-08 00:00:00,45,O+,312-555-2732,patient732@mail.com,Chicago,Yes,Blue Cross,45,FALSE
+733,Patient 733,Male,1961-02-05 00:00:00,65,B+,212-555-2733,patient733@mail.com,New York,Yes,Medicare,65,FALSE
+734,Patient 734,Female,1962-10-20 00:00:00,63,B+,213-555-2734,patient734@mail.com,Los Angeles,Yes,Aetna,63,FALSE
+735,Patient 735,Female,1998-09-24 00:00:00,28,A+,602-555-2735,patient735@mail.com,Phoenix,Yes,Medicaid,28,FALSE
+736,Patient 736,Female,1941-04-05 00:00:00,85,O+,602-555-2736,patient736@mail.com,Phoenix,Yes,Medicare,85,FALSE
+737,Patient 737,Male,2006-09-30 00:00:00,20,O+,213-555-2737,patient737@mail.com,Los Angeles,Yes,UnitedHealthcare,20,FALSE
+738,Patient 738,Female,2025-01-26 00:00:00,1,A+,602-555-2738,patient738@mail.com,Phoenix,Yes,Blue Cross,1,FALSE
+739,Patient 739,Male,2017-04-11 00:00:00,9,O+,212-555-2739,patient739@mail.com,New York,Yes,Blue Cross,9,FALSE
+740,Patient 740,Female,1973-03-11 00:00:00,53,O+,312-555-2740,patient740@mail.com,Chicago,Yes,UnitedHealthcare,53,FALSE
+741,Patient 741,Male,1961-10-07 00:00:00,64,O+,619-555-2741,patient741@mail.com,San Diego,No,Self-Pay,64,FALSE
+742,Patient 742,Male,1956-01-08 00:00:00,70,B+,619-555-2742,patient742@mail.com,San Diego,Yes,Medicare,70,FALSE
+743,Patient 743,Male,1937-10-17 00:00:00,88,O+,312-555-2743,patient743@mail.com,Chicago,Yes,Medicare,88,FALSE
+744,Patient 744,Male,1982-08-22 00:00:00,44,AB-,212-555-2744,patient744@mail.com,New York,Yes,UnitedHealthcare,44,FALSE
+745,Patient 745,Female,2007-01-11 00:00:00,19,A+,312-555-2745,patient745@mail.com,Chicago,Yes,Aetna,19,FALSE
+746,Patient 746,Male,1961-09-22 00:00:00,65,O+,312-555-2746,patient746@mail.com,Chicago,Yes,Medicare,65,FALSE
+747,Patient 747,Female,1953-10-27 00:00:00,72,A+,602-555-2747,patient747@mail.com,Phoenix,Yes,Medicare,72,FALSE
+748,Patient 748,Female,2012-02-28 00:00:00,14,O+,602-555-2748,patient748@mail.com,Phoenix,Yes,Medicaid,14,FALSE
+749,Patient 749,Female,2002-11-22 00:00:00,23,AB+,212-555-2749,patient749@mail.com,New York,No,Self-Pay,23,FALSE
+750,Patient 750,Female,1981-05-30 00:00:00,45,O-,312-555-2750,patient750@mail.com,Chicago,Yes,UnitedHealthcare,45,FALSE
+751,Patient 751,Female,1970-07-06 00:00:00,56,A+,213-555-2751,patient751@mail.com,Los Angeles,Yes,Blue Cross,56,FALSE
+752,Patient 752,Female,2009-10-19 00:00:00,16,O+,602-555-2752,patient752@mail.com,Phoenix,No,Self-Pay,16,FALSE
+753,Patient 753,Female,2022-04-03 00:00:00,4,B-,212-555-2753,patient753@mail.com,New York,Yes,UnitedHealthcare,4,FALSE
+754,Patient 754,Male,1977-02-09 00:00:00,49,O+,602-555-2754,patient754@mail.com,Phoenix,Yes,Medicaid,49,FALSE
+755,Patient 755,Female,2011-01-14 00:00:00,15,O+,312-555-2755,patient755@mail.com,Chicago,Yes,Cigna,15,FALSE
+756,Patient 756,Female,1954-03-04 00:00:00,72,AB-,312-555-2756,patient756@mail.com,Chicago,Yes,Medicare,72,FALSE
+757,Patient 757,Male,2024-11-01 00:00:00,1,A+,212-555-2757,patient757@mail.com,New York,Yes,Medicaid,1,FALSE
+758,Patient 758,Female,1961-04-21 00:00:00,65,A+,212-555-2758,patient758@mail.com,New York,Yes,Medicare,65,FALSE
+759,Patient 759,Male,1985-07-23 00:00:00,41,A-,602-555-2759,patient759@mail.com,Phoenix,Yes,UnitedHealthcare,41,FALSE
+760,Patient 760,Female,1968-04-06 00:00:00,58,O-,602-555-2760,patient760@mail.com,Phoenix,Yes,Cigna,58,FALSE
+761,Patient 761,Female,1973-06-15 00:00:00,53,O+,213-555-2761,patient761@mail.com,Los Angeles,Yes,Medicaid,53,FALSE
+762,Patient 762,Male,2007-10-08 00:00:00,18,A+,213-555-2762,patient762@mail.com,Los Angeles,Yes,Medicaid,18,FALSE
+763,Patient 763,Male,1939-11-20 00:00:00,86,A+,619-555-2763,patient763@mail.com,San Diego,Yes,Medicare,86,FALSE
+764,Patient 764,Female,1995-06-13 00:00:00,31,O+,602-555-2764,patient764@mail.com,Phoenix,Yes,UnitedHealthcare,31,FALSE
+765,Patient 765,Male,1964-11-22 00:00:00,61,A+,212-555-2765,patient765@mail.com,New York,Yes,Medicaid,61,FALSE
+766,Patient 766,Male,2023-07-12 00:00:00,3,A+,312-555-2766,patient766@mail.com,Chicago,Yes,Aetna,3,FALSE
+767,Patient 767,Female,1963-06-14 00:00:00,63,A+,312-555-2767,patient767@mail.com,Chicago,Yes,Cigna,63,FALSE
+768,Patient 768,Male,1958-03-24 00:00:00,68,B-,312-555-2768,patient768@mail.com,Chicago,Yes,Medicare,68,FALSE
+769,Patient 769,Female,1996-07-23 00:00:00,30,A+,212-555-2769,patient769@mail.com,New York,Yes,Cigna,30,FALSE
+770,Patient 770,Female,1988-05-04 00:00:00,38,O+,619-555-2770,patient770@mail.com,San Diego,Yes,Aetna,38,FALSE
+771,Patient 771,Female,2024-01-23 00:00:00,2,O+,619-555-2771,patient771@mail.com,San Diego,Yes,Aetna,2,FALSE
+772,Patient 772,Female,1936-03-25 00:00:00,90,A+,312-555-2772,patient772@mail.com,Chicago,Yes,Medicare,90,FALSE
+773,Patient 773,Female,2021-10-15 00:00:00,4,AB-,312-555-2773,patient773@mail.com,Chicago,Yes,Aetna,4,FALSE
+774,Patient 774,Female,1949-01-20 00:00:00,77,A+,312-555-2774,patient774@mail.com,Chicago,Yes,Medicare,77,FALSE
+775,Patient 775,Male,2020-06-25 00:00:00,6,A+,312-555-2775,patient775@mail.com,Chicago,Yes,Medicaid,6,FALSE
+776,Patient 776,Male,2004-01-08 00:00:00,22,AB-,619-555-2776,patient776@mail.com,San Diego,Yes,Blue Cross,22,FALSE
+777,Patient 777,Male,1935-12-05 00:00:00,90,A+,213-555-2777,patient777@mail.com,Los Angeles,Yes,Medicare,90,FALSE
+778,Patient 778,Male,2021-02-26 00:00:00,5,O+,619-555-2778,patient778@mail.com,San Diego,Yes,Medicaid,5,FALSE
+779,Patient 779,Female,1966-10-29 00:00:00,59,B+,312-555-2779,patient779@mail.com,Chicago,Yes,Blue Cross,59,FALSE
+780,Patient 780,Male,1956-08-02 00:00:00,70,O-,312-555-2780,patient780@mail.com,Chicago,Yes,Medicare,70,FALSE
+781,Patient 781,Male,2024-01-07 00:00:00,2,O+,619-555-2781,patient781@mail.com,San Diego,Yes,Cigna,2,FALSE
+782,Patient 782,Female,1951-06-27 00:00:00,75,O-,619-555-2782,patient782@mail.com,San Diego,No,Self-Pay,75,FALSE
+783,Patient 783,Male,1981-11-04 00:00:00,44,A+,619-555-2783,patient783@mail.com,San Diego,Yes,Cigna,44,FALSE
+784,Patient 784,Female,2020-05-20 00:00:00,6,A+,213-555-2784,patient784@mail.com,Los Angeles,Yes,Blue Cross,6,FALSE
+785,Patient 785,Male,1996-11-09 00:00:00,29,O+,212-555-2785,patient785@mail.com,New York,No,Self-Pay,29,FALSE
+786,Patient 786,Female,2017-04-14 00:00:00,9,A+,312-555-2786,patient786@mail.com,Chicago,Yes,Aetna,9,FALSE
+787,Patient 787,Female,1982-05-11 00:00:00,44,A+,312-555-2787,patient787@mail.com,Chicago,Yes,UnitedHealthcare,44,FALSE
+788,Patient 788,Male,1976-12-12 00:00:00,49,O+,602-555-2788,patient788@mail.com,Phoenix,Yes,Medicaid,49,FALSE
+789,Patient 789,Male,1946-01-06 00:00:00,80,AB+,213-555-2789,patient789@mail.com,Los Angeles,Yes,Medicare,80,FALSE
+790,Patient 790,Female,1955-11-28 00:00:00,70,O+,212-555-2790,patient790@mail.com,New York,Yes,Medicare,70,FALSE
+791,Patient 791,Female,2012-10-14 00:00:00,13,A+,619-555-2791,patient791@mail.com,San Diego,Yes,Aetna,13,FALSE
+792,Patient 792,Male,1958-08-01 00:00:00,68,A+,602-555-2792,patient792@mail.com,Phoenix,Yes,Medicare,68,FALSE
+793,Patient 793,Female,1967-06-27 00:00:00,59,B-,312-555-2793,patient793@mail.com,Chicago,Yes,Aetna,59,FALSE
+794,Patient 794,Female,1941-05-28 00:00:00,85,A+,602-555-2794,patient794@mail.com,Phoenix,Yes,Medicare,85,FALSE
+795,Patient 795,Male,1950-07-21 00:00:00,76,O+,602-555-2795,patient795@mail.com,Phoenix,Yes,Medicare,76,FALSE
+796,Patient 796,Male,1947-08-17 00:00:00,79,A+,312-555-2796,patient796@mail.com,Chicago,No,Self-Pay,79,FALSE
+797,Patient 797,Male,2002-06-08 00:00:00,24,AB-,602-555-2797,patient797@mail.com,Phoenix,Yes,UnitedHealthcare,24,FALSE
+798,Patient 798,Female,1959-07-10 00:00:00,67,A+,212-555-2798,patient798@mail.com,New York,No,Self-Pay,67,FALSE
+799,Patient 799,Female,2023-11-01 00:00:00,2,AB-,619-555-2799,patient799@mail.com,San Diego,Yes,Blue Cross,2,FALSE
+800,Patient 800,Male,1968-07-14 00:00:00,58,A+,602-555-2800,patient800@mail.com,Phoenix,Yes,UnitedHealthcare,58,FALSE
+801,Patient 801,Male,2024-02-21 00:00:00,2,A+,619-555-2801,patient801@mail.com,San Diego,Yes,Medicaid,2,FALSE
+802,Patient 802,Male,1982-01-21 00:00:00,44,O-,212-555-2802,patient802@mail.com,New York,Yes,UnitedHealthcare,44,FALSE
+803,Patient 803,Female,2002-11-30 00:00:00,23,AB+,602-555-2803,patient803@mail.com,Phoenix,Yes,Medicaid,23,FALSE
+804,Patient 804,Male,2001-02-15 00:00:00,25,O+,619-555-2804,patient804@mail.com,San Diego,Yes,Blue Cross,25,FALSE
+805,Patient 805,Male,1950-04-23 00:00:00,76,O+,312-555-2805,patient805@mail.com,Chicago,Yes,Medicare,76,FALSE
+806,Patient 806,Female,1984-08-18 00:00:00,42,O+,212-555-2806,patient806@mail.com,New York,Yes,Blue Cross,42,FALSE
+807,Patient 807,Male,1962-05-07 00:00:00,64,O+,602-555-2807,patient807@mail.com,Phoenix,Yes,Medicaid,64,FALSE
+808,Patient 808,Male,1983-02-04 00:00:00,43,O-,212-555-2808,patient808@mail.com,New York,Yes,Medicaid,43,FALSE
+809,Patient 809,Female,1997-10-08 00:00:00,28,O+,602-555-2809,patient809@mail.com,Phoenix,Yes,Medicaid,28,FALSE
+810,Patient 810,Male,1973-04-03 00:00:00,53,AB-,212-555-2810,patient810@mail.com,New York,Yes,Cigna,53,FALSE
+811,Patient 811,Male,1987-11-24 00:00:00,38,O+,212-555-2811,patient811@mail.com,New York,Yes,Medicaid,38,FALSE
+812,Patient 812,Male,1963-01-18 00:00:00,63,B-,602-555-2812,patient812@mail.com,Phoenix,Yes,Cigna,63,FALSE
+813,Patient 813,Male,2003-06-13 00:00:00,23,O+,312-555-2813,patient813@mail.com,Chicago,Yes,Cigna,23,FALSE
+814,Patient 814,Male,1948-05-16 00:00:00,78,O-,312-555-2814,patient814@mail.com,Chicago,Yes,Medicare,78,FALSE
+815,Patient 815,Male,1960-02-01 00:00:00,66,B-,213-555-2815,patient815@mail.com,Los Angeles,Yes,Medicare,66,FALSE
+816,Patient 816,Male,1940-12-08 00:00:00,85,B+,213-555-2816,patient816@mail.com,Los Angeles,No,Self-Pay,85,FALSE
+817,Patient 817,Female,2001-06-30 00:00:00,25,O+,619-555-2817,patient817@mail.com,San Diego,Yes,Aetna,25,FALSE
+818,Patient 818,Female,1982-01-16 00:00:00,44,O+,212-555-2818,patient818@mail.com,New York,Yes,UnitedHealthcare,44,FALSE
+819,Patient 819,Female,2023-04-02 00:00:00,3,O-,212-555-2819,patient819@mail.com,New York,Yes,UnitedHealthcare,3,FALSE
+820,Patient 820,Female,1945-04-25 00:00:00,81,A+,213-555-2820,patient820@mail.com,Los Angeles,Yes,Medicare,81,FALSE
+821,Patient 821,Female,1985-07-02 00:00:00,41,A+,312-555-2821,patient821@mail.com,Chicago,No,Self-Pay,41,FALSE
+822,Patient 822,Male,2022-02-16 00:00:00,4,A+,602-555-2822,patient822@mail.com,Phoenix,Yes,Aetna,4,FALSE
+823,Patient 823,Male,1958-07-22 00:00:00,68,O+,619-555-2823,patient823@mail.com,San Diego,Yes,Medicare,68,FALSE
+824,Patient 824,Male,1998-09-24 00:00:00,28,O+,602-555-2824,patient824@mail.com,Phoenix,Yes,Aetna,28,FALSE
+825,Patient 825,Female,1993-05-28 00:00:00,33,A+,602-555-2825,patient825@mail.com,Phoenix,Yes,Medicaid,33,FALSE
+826,Patient 826,Female,1981-04-06 00:00:00,45,O+,602-555-2826,patient826@mail.com,Phoenix,Yes,Aetna,45,FALSE
+827,Patient 827,Male,2017-12-13 00:00:00,8,O+,213-555-2827,patient827@mail.com,Los Angeles,Yes,Medicaid,8,FALSE
+828,Patient 828,Male,1956-09-27 00:00:00,70,O+,312-555-2828,patient828@mail.com,Chicago,Yes,Medicare,70,FALSE
+829,Patient 829,Male,2014-08-30 00:00:00,12,A+,602-555-2829,patient829@mail.com,Phoenix,Yes,Cigna,12,FALSE
+830,Patient 830,Female,1973-12-28 00:00:00,52,O-,212-555-2830,patient830@mail.com,New York,Yes,Cigna,52,FALSE
+831,Patient 831,Female,1955-11-21 00:00:00,70,O+,602-555-2831,patient831@mail.com,Phoenix,Yes,Medicare,70,FALSE
+832,Patient 832,Female,1977-08-16 00:00:00,49,A+,212-555-2832,patient832@mail.com,New York,Yes,Medicaid,49,FALSE
+833,Patient 833,Male,2019-10-25 00:00:00,6,O+,212-555-2833,patient833@mail.com,New York,Yes,UnitedHealthcare,6,FALSE
+834,Patient 834,Female,2001-12-08 00:00:00,24,O+,619-555-2834,patient834@mail.com,San Diego,Yes,Aetna,24,FALSE
+835,Patient 835,Male,1941-01-14 00:00:00,85,A+,619-555-2835,patient835@mail.com,San Diego,Yes,Medicare,85,FALSE
+836,Patient 836,Male,1952-11-16 00:00:00,73,B+,212-555-2836,patient836@mail.com,New York,Yes,Medicare,73,FALSE
+837,Patient 837,Female,1990-03-11 00:00:00,36,A-,619-555-2837,patient837@mail.com,San Diego,Yes,Aetna,36,FALSE
+838,Patient 838,Female,1995-03-05 00:00:00,31,O+,212-555-2838,patient838@mail.com,New York,Yes,Medicaid,31,FALSE
+839,Patient 839,Female,1985-07-13 00:00:00,41,B+,213-555-2839,patient839@mail.com,Los Angeles,Yes,Aetna,41,FALSE
+840,Patient 840,Male,1979-09-30 00:00:00,47,A+,602-555-2840,patient840@mail.com,Phoenix,Yes,Aetna,47,FALSE
+841,Patient 841,Female,1982-07-26 00:00:00,44,O+,312-555-2841,patient841@mail.com,Chicago,Yes,Blue Cross,44,FALSE
+842,Patient 842,Female,1995-08-04 00:00:00,31,B+,312-555-2842,patient842@mail.com,Chicago,Yes,Cigna,31,FALSE
+843,Patient 843,Male,1958-05-18 00:00:00,68,O+,212-555-2843,patient843@mail.com,New York,No,Self-Pay,68,FALSE
+844,Patient 844,Female,2001-06-02 00:00:00,25,A+,213-555-2844,patient844@mail.com,Los Angeles,Yes,Aetna,25,FALSE
+845,Patient 845,Male,1972-04-25 00:00:00,54,A+,213-555-2845,patient845@mail.com,Los Angeles,Yes,Aetna,54,FALSE
+846,Patient 846,Female,2025-10-24 00:00:00,0,O+,212-555-2846,patient846@mail.com,New York,Yes,Blue Cross,0,FALSE
+847,Patient 847,Female,1958-08-16 00:00:00,68,AB-,212-555-2847,patient847@mail.com,New York,Yes,Medicare,68,FALSE
+848,Patient 848,Female,1937-03-09 00:00:00,89,A+,312-555-2848,patient848@mail.com,Chicago,Yes,Medicare,89,FALSE
+849,Patient 849,Female,1962-10-04 00:00:00,63,A+,212-555-2849,patient849@mail.com,New York,Yes,Medicaid,63,FALSE
+850,Patient 850,Male,1961-11-28 00:00:00,64,O+,312-555-2850,patient850@mail.com,Chicago,Yes,Cigna,64,FALSE
+851,Patient 851,Male,2016-04-27 00:00:00,10,A+,602-555-2851,patient851@mail.com,Phoenix,Yes,Medicaid,10,FALSE
+852,Patient 852,Male,1994-10-24 00:00:00,31,O+,602-555-2852,patient852@mail.com,Phoenix,Yes,Cigna,31,FALSE
+853,Patient 853,Male,2018-06-14 00:00:00,8,AB+,212-555-2853,patient853@mail.com,New York,No,Self-Pay,8,FALSE
+854,Patient 854,Male,1979-06-15 00:00:00,47,O+,619-555-2854,patient854@mail.com,San Diego,Yes,Cigna,47,FALSE
+855,Patient 855,Female,1983-06-28 00:00:00,43,O+,213-555-2855,patient855@mail.com,Los Angeles,Yes,Medicaid,43,FALSE
+856,Patient 856,Male,1954-06-01 00:00:00,72,A+,619-555-2856,patient856@mail.com,San Diego,Yes,Medicare,72,FALSE
+857,Patient 857,Female,2009-05-18 00:00:00,17,A+,213-555-2857,patient857@mail.com,Los Angeles,Yes,Aetna,17,FALSE
+858,Patient 858,Male,1964-09-29 00:00:00,62,O+,213-555-2858,patient858@mail.com,Los Angeles,Yes,Blue Cross,62,FALSE
+859,Patient 859,Female,1974-10-13 00:00:00,51,O-,619-555-2859,patient859@mail.com,San Diego,No,Self-Pay,51,FALSE
+860,Patient 860,Female,2005-01-28 00:00:00,21,O+,212-555-2860,patient860@mail.com,New York,Yes,Cigna,21,FALSE
+861,Patient 861,Female,2014-10-08 00:00:00,11,A-,213-555-2861,patient861@mail.com,Los Angeles,Yes,Medicaid,11,FALSE
+862,Patient 862,Male,2021-02-14 00:00:00,5,A+,602-555-2862,patient862@mail.com,Phoenix,Yes,Blue Cross,5,FALSE
+863,Patient 863,Female,2004-01-03 00:00:00,22,O+,213-555-2863,patient863@mail.com,Los Angeles,Yes,Medicaid,22,FALSE
+864,Patient 864,Female,1966-01-27 00:00:00,60,O+,602-555-2864,patient864@mail.com,Phoenix,Yes,Cigna,60,FALSE
+865,Patient 865,Female,1976-01-26 00:00:00,50,O+,602-555-2865,patient865@mail.com,Phoenix,Yes,Aetna,50,FALSE
+866,Patient 866,Male,1992-06-16 00:00:00,34,A-,602-555-2866,patient866@mail.com,Phoenix,Yes,Medicaid,34,FALSE
+867,Patient 867,Female,1994-09-02 00:00:00,32,O+,213-555-2867,patient867@mail.com,Los Angeles,Yes,Blue Cross,32,FALSE
+868,Patient 868,Female,2008-06-20 00:00:00,18,O+,602-555-2868,patient868@mail.com,Phoenix,Yes,Aetna,18,FALSE
+869,Patient 869,Male,1975-12-14 00:00:00,50,A-,602-555-2869,patient869@mail.com,Phoenix,Yes,Cigna,50,FALSE
+870,Patient 870,Female,1983-06-22 00:00:00,43,A+,602-555-2870,patient870@mail.com,Phoenix,Yes,Cigna,43,FALSE
+871,Patient 871,Female,1947-05-27 00:00:00,79,O+,312-555-2871,patient871@mail.com,Chicago,Yes,Medicare,79,FALSE
+872,Patient 872,Male,1971-10-15 00:00:00,54,A+,602-555-2872,patient872@mail.com,Phoenix,Yes,Cigna,54,FALSE
+873,Patient 873,Male,1997-03-31 00:00:00,29,O+,212-555-2873,patient873@mail.com,New York,Yes,Aetna,29,FALSE
+874,Patient 874,Male,1995-03-02 00:00:00,31,A+,619-555-2874,patient874@mail.com,San Diego,Yes,Blue Cross,31,FALSE
+875,Patient 875,Male,1947-02-19 00:00:00,79,A+,602-555-2875,patient875@mail.com,Phoenix,Yes,Medicare,79,FALSE
+876,Patient 876,Male,1970-01-29 00:00:00,56,A+,602-555-2876,patient876@mail.com,Phoenix,Yes,UnitedHealthcare,56,FALSE
+877,Patient 877,Male,1969-12-25 00:00:00,56,O+,212-555-2877,patient877@mail.com,New York,Yes,Aetna,56,FALSE
+878,Patient 878,Female,1971-10-07 00:00:00,54,A+,602-555-2878,patient878@mail.com,Phoenix,Yes,Cigna,54,FALSE
+879,Patient 879,Female,1947-02-16 00:00:00,79,A+,312-555-2879,patient879@mail.com,Chicago,Yes,Medicare,79,FALSE
+880,Patient 880,Female,1981-07-30 00:00:00,45,A+,602-555-2880,patient880@mail.com,Phoenix,Yes,UnitedHealthcare,45,FALSE
+881,Patient 881,Male,1987-02-08 00:00:00,39,A+,212-555-2881,patient881@mail.com,New York,Yes,Cigna,39,FALSE
+882,Patient 882,Male,2025-04-28 00:00:00,1,O+,312-555-2882,patient882@mail.com,Chicago,Yes,Medicaid,1,FALSE
+883,Patient 883,Female,1951-09-29 00:00:00,75,O+,213-555-2883,patient883@mail.com,Los Angeles,No,Self-Pay,75,FALSE
+884,Patient 884,Female,1997-11-15 00:00:00,28,A+,602-555-2884,patient884@mail.com,Phoenix,Yes,Aetna,28,FALSE
+885,Patient 885,Female,1961-03-31 00:00:00,65,A+,213-555-2885,patient885@mail.com,Los Angeles,Yes,Medicare,65,FALSE
+886,Patient 886,Female,1954-05-26 00:00:00,72,AB+,212-555-2886,patient886@mail.com,New York,Yes,Medicare,72,FALSE
+887,Patient 887,Female,1965-08-28 00:00:00,61,A-,212-555-2887,patient887@mail.com,New York,No,Self-Pay,61,FALSE
+888,Patient 888,Male,1955-02-06 00:00:00,71,B+,602-555-2888,patient888@mail.com,Phoenix,Yes,Medicare,71,FALSE
+889,Patient 889,Female,1978-03-31 00:00:00,48,A+,312-555-2889,patient889@mail.com,Chicago,Yes,Cigna,48,FALSE
+890,Patient 890,Male,1962-11-20 00:00:00,63,O+,602-555-2890,patient890@mail.com,Phoenix,Yes,Medicaid,63,FALSE
+891,Patient 891,Male,1962-12-19 00:00:00,63,A-,602-555-2891,patient891@mail.com,Phoenix,Yes,Aetna,63,FALSE
+892,Patient 892,Male,1982-01-02 00:00:00,44,O+,213-555-2892,patient892@mail.com,Los Angeles,Yes,Cigna,44,FALSE
+893,Patient 893,Male,1942-03-24 00:00:00,84,O+,213-555-2893,patient893@mail.com,Los Angeles,Yes,Medicare,84,FALSE
+894,Patient 894,Female,1976-08-10 00:00:00,50,AB+,602-555-2894,patient894@mail.com,Phoenix,Yes,Blue Cross,50,FALSE
+895,Patient 895,Male,1977-09-22 00:00:00,49,A+,212-555-2895,patient895@mail.com,New York,Yes,Cigna,49,FALSE
+896,Patient 896,Female,1937-03-27 00:00:00,89,A+,212-555-2896,patient896@mail.com,New York,Yes,Medicare,89,FALSE
+897,Patient 897,Male,2022-04-29 00:00:00,4,B+,619-555-2897,patient897@mail.com,San Diego,Yes,UnitedHealthcare,4,FALSE
+898,Patient 898,Male,1990-11-22 00:00:00,35,A+,212-555-2898,patient898@mail.com,New York,Yes,UnitedHealthcare,35,FALSE
+899,Patient 899,Female,1972-10-18 00:00:00,53,AB-,602-555-2899,patient899@mail.com,Phoenix,Yes,Aetna,53,FALSE
+900,Patient 900,Male,1971-09-18 00:00:00,55,AB-,619-555-2900,patient900@mail.com,San Diego,No,Self-Pay,55,FALSE
+901,Patient 901,Female,1964-04-12 00:00:00,62,O+,213-555-2901,patient901@mail.com,Los Angeles,Yes,Aetna,62,FALSE
+902,Patient 902,Male,1968-05-01 00:00:00,58,O+,312-555-2902,patient902@mail.com,Chicago,Yes,Aetna,58,FALSE
+903,Patient 903,Male,2024-12-14 00:00:00,1,O+,602-555-2903,patient903@mail.com,Phoenix,Yes,Medicaid,1,FALSE
+904,Patient 904,Female,1993-12-09 00:00:00,32,AB-,602-555-2904,patient904@mail.com,Phoenix,Yes,Cigna,32,FALSE
+905,Patient 905,Male,1960-02-02 00:00:00,66,A+,602-555-2905,patient905@mail.com,Phoenix,Yes,Medicare,66,FALSE
+906,Patient 906,Female,2023-07-27 00:00:00,3,A+,312-555-2906,patient906@mail.com,Chicago,No,Self-Pay,3,FALSE
+907,Patient 907,Female,2021-08-20 00:00:00,5,AB-,602-555-2907,patient907@mail.com,Phoenix,Yes,Medicaid,5,FALSE
+908,Patient 908,Female,1960-03-07 00:00:00,66,A+,602-555-2908,patient908@mail.com,Phoenix,Yes,Medicare,66,FALSE
+909,Patient 909,Female,2001-02-06 00:00:00,25,O-,619-555-2909,patient909@mail.com,San Diego,Yes,Cigna,25,FALSE
+910,Patient 910,Female,2001-06-14 00:00:00,25,A-,213-555-2910,patient910@mail.com,Los Angeles,Yes,UnitedHealthcare,25,FALSE
+911,Patient 911,Male,1944-06-02 00:00:00,82,O+,602-555-2911,patient911@mail.com,Phoenix,Yes,Medicare,82,FALSE
+912,Patient 912,Female,2006-03-06 00:00:00,20,A+,212-555-2912,patient912@mail.com,New York,Yes,Blue Cross,20,FALSE
+913,Patient 913,Male,2005-04-02 00:00:00,21,B-,602-555-2913,patient913@mail.com,Phoenix,Yes,Aetna,21,FALSE
+914,Patient 914,Female,2013-07-29 00:00:00,13,A+,213-555-2914,patient914@mail.com,Los Angeles,Yes,Cigna,13,FALSE
+915,Patient 915,Female,1978-03-22 00:00:00,48,B+,619-555-2915,patient915@mail.com,San Diego,Yes,Blue Cross,48,FALSE
+916,Patient 916,Male,1980-06-04 00:00:00,46,A+,619-555-2916,patient916@mail.com,San Diego,Yes,Medicaid,46,FALSE
+917,Patient 917,Female,1985-04-25 00:00:00,41,B+,213-555-2917,patient917@mail.com,Los Angeles,Yes,UnitedHealthcare,41,FALSE
+918,Patient 918,Female,1958-07-20 00:00:00,68,A+,602-555-2918,patient918@mail.com,Phoenix,Yes,Medicare,68,FALSE
+919,Patient 919,Male,1996-04-02 00:00:00,30,O+,213-555-2919,patient919@mail.com,Los Angeles,Yes,UnitedHealthcare,30,FALSE
+920,Patient 920,Male,2001-07-01 00:00:00,25,O+,212-555-2920,patient920@mail.com,New York,Yes,Medicaid,25,FALSE
+921,Patient 921,Male,1955-01-12 00:00:00,71,O+,213-555-2921,patient921@mail.com,Los Angeles,Yes,Medicare,71,FALSE
+922,Patient 922,Male,1965-05-31 00:00:00,61,O+,212-555-2922,patient922@mail.com,New York,Yes,Aetna,61,FALSE
+923,Patient 923,Female,1958-11-13 00:00:00,67,AB+,213-555-2923,patient923@mail.com,Los Angeles,Yes,Medicare,67,FALSE
+924,Patient 924,Male,1951-03-16 00:00:00,75,O+,602-555-2924,patient924@mail.com,Phoenix,Yes,Medicare,75,FALSE
+925,Patient 925,Female,1983-04-24 00:00:00,43,B+,213-555-2925,patient925@mail.com,Los Angeles,Yes,Aetna,43,FALSE
+926,Patient 926,Male,1974-05-25 00:00:00,52,A+,212-555-2926,patient926@mail.com,New York,Yes,Cigna,52,FALSE
+927,Patient 927,Male,1979-02-17 00:00:00,47,A-,602-555-2927,patient927@mail.com,Phoenix,Yes,Blue Cross,47,FALSE
+928,Patient 928,Male,1946-04-01 00:00:00,80,O+,312-555-2928,patient928@mail.com,Chicago,No,Self-Pay,80,FALSE
+929,Patient 929,Female,1966-05-21 00:00:00,60,O+,312-555-2929,patient929@mail.com,Chicago,No,Self-Pay,60,FALSE
+930,Patient 930,Male,1972-06-12 00:00:00,54,O+,213-555-2930,patient930@mail.com,Los Angeles,Yes,Aetna,54,FALSE
+931,Patient 931,Male,1943-03-17 00:00:00,83,AB+,212-555-2931,patient931@mail.com,New York,Yes,Medicare,83,FALSE
+932,Patient 932,Male,2017-10-14 00:00:00,8,O-,602-555-2932,patient932@mail.com,Phoenix,Yes,Medicaid,8,FALSE
+933,Patient 933,Male,1969-07-21 00:00:00,57,B+,312-555-2933,patient933@mail.com,Chicago,Yes,Blue Cross,57,FALSE
+934,Patient 934,Male,1995-10-01 00:00:00,30,O-,602-555-2934,patient934@mail.com,Phoenix,Yes,Blue Cross,30,FALSE
+935,Patient 935,Male,1950-08-20 00:00:00,76,O-,602-555-2935,patient935@mail.com,Phoenix,No,Self-Pay,76,FALSE
+936,Patient 936,Female,1977-07-12 00:00:00,49,O+,212-555-2936,patient936@mail.com,New York,Yes,Blue Cross,49,FALSE
+937,Patient 937,Female,1951-07-15 00:00:00,75,A+,212-555-2937,patient937@mail.com,New York,Yes,Medicare,75,FALSE
+938,Patient 938,Male,1957-12-03 00:00:00,68,A+,213-555-2938,patient938@mail.com,Los Angeles,No,Self-Pay,68,FALSE
+939,Patient 939,Female,1971-09-04 00:00:00,55,A+,619-555-2939,patient939@mail.com,San Diego,Yes,Cigna,55,FALSE
+940,Patient 940,Male,1998-12-14 00:00:00,27,A+,212-555-2940,patient940@mail.com,New York,Yes,UnitedHealthcare,27,FALSE
+941,Patient 941,Male,1941-07-26 00:00:00,85,A+,213-555-2941,patient941@mail.com,Los Angeles,Yes,Medicare,85,FALSE
+942,Patient 942,Female,2019-04-24 00:00:00,7,O+,602-555-2942,patient942@mail.com,Phoenix,Yes,Cigna,7,FALSE
+943,Patient 943,Male,2007-10-27 00:00:00,18,A+,213-555-2943,patient943@mail.com,Los Angeles,Yes,Aetna,18,FALSE
+944,Patient 944,Female,2023-06-17 00:00:00,3,A+,602-555-2944,patient944@mail.com,Phoenix,Yes,Medicaid,3,FALSE
+945,Patient 945,Female,2021-01-04 00:00:00,5,B+,212-555-2945,patient945@mail.com,New York,Yes,Medicaid,5,FALSE
+946,Patient 946,Male,1990-12-11 00:00:00,35,AB+,312-555-2946,patient946@mail.com,Chicago,Yes,Medicaid,35,FALSE
+947,Patient 947,Male,1948-01-03 00:00:00,78,O+,602-555-2947,patient947@mail.com,Phoenix,Yes,Medicare,78,FALSE
+948,Patient 948,Male,2005-04-05 00:00:00,21,A+,212-555-2948,patient948@mail.com,New York,Yes,Blue Cross,21,FALSE
+949,Patient 949,Female,2022-07-04 00:00:00,4,A+,602-555-2949,patient949@mail.com,Phoenix,Yes,Medicaid,4,FALSE
+950,Patient 950,Female,1955-03-08 00:00:00,71,A+,602-555-2950,patient950@mail.com,Phoenix,Yes,Medicare,71,FALSE
+951,Patient 951,Male,1944-12-20 00:00:00,81,O+,312-555-2951,patient951@mail.com,Chicago,Yes,Medicare,81,FALSE
+952,Patient 952,Male,1935-12-26 00:00:00,90,O+,602-555-2952,patient952@mail.com,Phoenix,Yes,Medicare,90,FALSE
+953,Patient 953,Female,1964-08-21 00:00:00,62,O+,212-555-2953,patient953@mail.com,New York,Yes,Blue Cross,62,FALSE
+954,Patient 954,Female,1985-07-19 00:00:00,41,O+,213-555-2954,patient954@mail.com,Los Angeles,Yes,Blue Cross,41,FALSE
+955,Patient 955,Female,2013-07-14 00:00:00,13,O+,212-555-2955,patient955@mail.com,New York,Yes,Medicaid,13,FALSE
+956,Patient 956,Male,2026-06-11 00:00:00,0,A-,212-555-2956,patient956@mail.com,New York,Yes,Blue Cross,0,FALSE
+957,Patient 957,Male,1979-07-04 00:00:00,47,A+,212-555-2957,patient957@mail.com,New York,Yes,UnitedHealthcare,47,FALSE
+958,Patient 958,Female,1961-10-31 00:00:00,64,A+,602-555-2958,patient958@mail.com,Phoenix,Yes,Cigna,64,FALSE
+959,Patient 959,Female,1974-11-27 00:00:00,51,A+,212-555-2959,patient959@mail.com,New York,Yes,Blue Cross,51,FALSE
+960,Patient 960,Female,1957-06-15 00:00:00,69,A+,602-555-2960,patient960@mail.com,Phoenix,Yes,Medicare,69,FALSE
+961,Patient 961,Male,2017-03-23 00:00:00,9,A+,312-555-2961,patient961@mail.com,Chicago,Yes,Medicaid,9,FALSE
+962,Patient 962,Female,1985-05-08 00:00:00,41,A+,619-555-2962,patient962@mail.com,San Diego,Yes,Medicaid,41,FALSE
+963,Patient 963,Male,1958-12-03 00:00:00,67,A+,312-555-2963,patient963@mail.com,Chicago,Yes,Medicare,67,FALSE
+964,Patient 964,Male,1942-05-16 00:00:00,84,O+,212-555-2964,patient964@mail.com,New York,No,Self-Pay,84,FALSE
+965,Patient 965,Female,1975-06-06 00:00:00,51,A+,213-555-2965,patient965@mail.com,Los Angeles,Yes,Aetna,51,FALSE
+966,Patient 966,Male,1975-11-30 00:00:00,50,O+,602-555-2966,patient966@mail.com,Phoenix,Yes,Cigna,50,FALSE
+967,Patient 967,Male,2011-05-10 00:00:00,15,A-,213-555-2967,patient967@mail.com,Los Angeles,Yes,Aetna,15,FALSE
+968,Patient 968,Female,1967-04-13 00:00:00,59,A+,602-555-2968,patient968@mail.com,Phoenix,No,Self-Pay,59,FALSE
+969,Patient 969,Female,1960-01-31 00:00:00,66,O+,212-555-2969,patient969@mail.com,New York,Yes,Medicare,66,FALSE
+970,Patient 970,Female,1953-06-23 00:00:00,73,A+,213-555-2970,patient970@mail.com,Los Angeles,Yes,Medicare,73,FALSE
+971,Patient 971,Female,1971-01-03 00:00:00,55,A+,212-555-2971,patient971@mail.com,New York,Yes,Cigna,55,FALSE
+972,Patient 972,Female,1990-06-26 00:00:00,36,O+,619-555-2972,patient972@mail.com,San Diego,Yes,Cigna,36,FALSE
+973,Patient 973,Female,2026-05-15 00:00:00,0,A+,212-555-2973,patient973@mail.com,New York,Yes,Cigna,0,FALSE
+974,Patient 974,Female,1991-10-26 00:00:00,34,A+,619-555-2974,patient974@mail.com,San Diego,Yes,Aetna,34,FALSE
+975,Patient 975,Female,2010-06-26 00:00:00,16,A+,213-555-2975,patient975@mail.com,Los Angeles,Yes,UnitedHealthcare,16,FALSE
+976,Patient 976,Male,2018-06-13 00:00:00,8,A+,213-555-2976,patient976@mail.com,Los Angeles,No,Self-Pay,8,FALSE
+977,Patient 977,Male,1997-02-14 00:00:00,29,A+,619-555-2977,patient977@mail.com,San Diego,Yes,Medicaid,29,FALSE
+978,Patient 978,Male,1985-09-19 00:00:00,41,O-,602-555-2978,patient978@mail.com,Phoenix,Yes,Medicaid,41,FALSE
+979,Patient 979,Male,2021-02-10 00:00:00,5,A+,602-555-2979,patient979@mail.com,Phoenix,Yes,Blue Cross,5,FALSE
+980,Patient 980,Female,2021-04-27 00:00:00,5,O+,212-555-2980,patient980@mail.com,New York,No,Self-Pay,5,FALSE
+981,Patient 981,Male,2015-01-16 00:00:00,11,O+,312-555-2981,patient981@mail.com,Chicago,Yes,Blue Cross,11,FALSE
+982,Patient 982,Male,1989-02-09 00:00:00,37,B+,312-555-2982,patient982@mail.com,Chicago,Yes,Blue Cross,37,FALSE
+983,Patient 983,Female,2007-12-23 00:00:00,18,B+,212-555-2983,patient983@mail.com,New York,No,Self-Pay,18,FALSE
+984,Patient 984,Female,2020-08-16 00:00:00,6,O+,213-555-2984,patient984@mail.com,Los Angeles,No,Self-Pay,6,FALSE
+985,Patient 985,Male,2021-12-01 00:00:00,4,O+,602-555-2985,patient985@mail.com,Phoenix,Yes,Medicaid,4,FALSE
+986,Patient 986,Female,1969-12-18 00:00:00,56,O+,213-555-2986,patient986@mail.com,Los Angeles,Yes,Aetna,56,FALSE
+987,Patient 987,Male,2026-08-03 00:00:00,0,A+,602-555-2987,patient987@mail.com,Phoenix,Yes,Cigna,0,FALSE
+988,Patient 988,Female,2002-06-01 00:00:00,24,A+,213-555-2988,patient988@mail.com,Los Angeles,Yes,Cigna,24,FALSE
+989,Patient 989,Male,1995-05-17 00:00:00,31,O-,602-555-2989,patient989@mail.com,Phoenix,Yes,Blue Cross,31,FALSE
+990,Patient 990,Male,1970-05-06 00:00:00,56,A+,602-555-2990,patient990@mail.com,Phoenix,Yes,Blue Cross,56,FALSE
+991,Patient 991,Male,2001-10-01 00:00:00,24,O+,619-555-2991,patient991@mail.com,San Diego,Yes,Cigna,24,FALSE
+992,Patient 992,Female,1982-07-08 00:00:00,44,B+,213-555-2992,patient992@mail.com,Los Angeles,Yes,Cigna,44,FALSE
+993,Patient 993,Female,1998-01-15 00:00:00,28,O+,312-555-2993,patient993@mail.com,Chicago,Yes,Medicaid,28,FALSE
+994,Patient 994,Female,1940-06-30 00:00:00,86,O+,602-555-2994,patient994@mail.com,Phoenix,Yes,Medicare,86,FALSE
+995,Patient 995,Male,2016-04-12 00:00:00,10,O-,212-555-2995,patient995@mail.com,New York,Yes,Cigna,10,FALSE
+996,Patient 996,Female,1956-01-31 00:00:00,70,O+,312-555-2996,patient996@mail.com,Chicago,Yes,Medicare,70,FALSE
+997,Patient 997,Female,1992-09-28 00:00:00,34,A+,602-555-2997,patient997@mail.com,Phoenix,Yes,UnitedHealthcare,34,FALSE
+998,Patient 998,Female,1988-09-14 00:00:00,38,A+,212-555-2998,patient998@mail.com,New York,No,Self-Pay,38,FALSE
+999,Patient 999,Male,1965-04-21 00:00:00,61,A+,212-555-2999,patient999@mail.com,New York,Yes,Medicaid,61,FALSE
+1000,Patient 1000,Male,1971-10-12 00:00:00,54,O+,602-555-3000,patient1000@mail.com,Phoenix,Yes,Blue Cross,54,FALSE

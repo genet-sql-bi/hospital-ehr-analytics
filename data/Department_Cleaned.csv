@@ -1,0 +1,25 @@
+DepartmentID,DepartmentName,HospitalID,HeadDoctorID,Floor,TotalDoctors,TotalNurses
+1,Emergency,1,2,6,2,26
+2,General Medicine,1,4,2,2,14
+3,Cardiology,1,6,5,2,15
+4,Oncology,1,7,4,2,15
+5,ICU,1,9,4,2,20
+6,Emergency,2,11,2,2,20
+7,General Medicine,2,14,3,2,12
+8,Orthopedics,2,15,4,2,16
+9,Neurology,2,17,6,2,13
+10,ICU,2,19,3,2,35
+11,Emergency,3,22,3,2,34
+12,General Medicine,3,24,2,2,14
+13,Pediatrics,3,26,2,2,14
+14,Surgery,3,27,1,2,7
+15,Emergency,4,30,2,2,18
+16,General Medicine,4,32,6,2,16
+17,Cardiology,4,33,2,2,19
+18,Dermatology,4,36,1,2,16
+19,Radiology,4,37,3,2,9
+20,Emergency,5,40,2,2,23
+21,General Medicine,5,41,2,2,13
+22,Pediatrics,5,43,1,2,11
+23,ENT,5,45,6,2,7
+24,ICU,5,47,4,2,19

@@ -1,0 +1,49 @@
+DoctorID,DoctorName,Gender,Age,Qualification,Specialization,ExperienceYears,DepartmentID,HospitalID,Phone,Email,Salary,JoiningDate
+1,Doctor 1,Female,32,MD,Emergency,1,1,1,212-555-1001,dr1@citycare.com,354100,2024-07-25 00:00:00
+2,Doctor 2,Male,53,MD,Emergency,21,1,1,212-555-1002,dr2@citycare.com,403400,2005-04-13 00:00:00
+3,Doctor 3,Female,46,MD,General Medicine,15,2,1,212-555-1003,dr3@citycare.com,283100,2023-01-29 00:00:00
+4,Doctor 4,Male,57,DO,General Medicine,26,2,1,212-555-1004,dr4@citycare.com,261500,2021-11-30 00:00:00
+5,Doctor 5,Female,35,MD,Cardiology,2,3,1,212-555-1005,dr5@citycare.com,499600,2023-08-26 00:00:00
+6,Doctor 6,Female,59,MD,Cardiology,26,3,1,212-555-1006,dr6@citycare.com,468000,2021-08-23 00:00:00
+7,Doctor 7,Male,60,MD,Oncology,27,4,1,212-555-1007,dr7@citycare.com,475700,2018-01-15 00:00:00
+8,Doctor 8,Female,42,MD,Oncology,9,4,1,212-555-1008,dr8@citycare.com,436200,2024-07-17 00:00:00
+9,Doctor 9,Female,61,DO,ICU,30,5,1,212-555-1009,dr9@citycare.com,483000,2022-03-05 00:00:00
+10,Doctor 10,Female,40,MD,ICU,9,5,1,212-555-1010,dr10@citycare.com,375600,2017-03-02 00:00:00
+11,Doctor 11,Male,57,MD,Emergency,27,6,2,213-555-1011,dr11@citycare.com,420000,2010-01-03 00:00:00
+12,Doctor 12,Female,51,MD,Emergency,21,6,2,213-555-1012,dr12@citycare.com,382400,2009-06-17 00:00:00
+13,Doctor 13,Female,44,MD,General Medicine,11,7,2,213-555-1013,dr13@citycare.com,269600,2018-07-16 00:00:00
+14,Doctor 14,Male,55,MD,General Medicine,23,7,2,213-555-1014,dr14@citycare.com,274100,2014-12-02 00:00:00
+15,Doctor 15,Female,62,MD,Orthopedics,32,8,2,213-555-1015,dr15@citycare.com,667800,2020-08-06 00:00:00
+16,Doctor 16,Female,37,MD,Orthopedics,3,8,2,213-555-1016,dr16@citycare.com,519900,2024-02-02 00:00:00
+17,Doctor 17,Female,62,MD,Neurology,30,9,2,213-555-1017,dr17@citycare.com,496400,2017-08-08 00:00:00
+18,Doctor 18,Male,35,MD,Neurology,6,9,2,213-555-1018,dr18@citycare.com,384500,2025-03-26 00:00:00
+19,Doctor 19,Female,60,MD,ICU,31,10,2,213-555-1019,dr19@citycare.com,456000,2015-04-25 00:00:00
+20,Doctor 20,Female,42,MD,ICU,9,10,2,213-555-1020,dr20@citycare.com,355200,2019-05-27 00:00:00
+21,Doctor 21,Male,42,MD,Emergency,8,11,3,312-555-1021,dr21@citycare.com,321800,2021-04-22 00:00:00
+22,Doctor 22,Female,61,MD,Emergency,31,11,3,312-555-1022,dr22@citycare.com,378100,2010-03-24 00:00:00
+23,Doctor 23,Male,34,MD,General Medicine,3,12,3,312-555-1023,dr23@citycare.com,237200,2023-10-21 00:00:00
+24,Doctor 24,Male,49,MD,General Medicine,18,12,3,312-555-1024,dr24@citycare.com,294500,2009-12-29 00:00:00
+25,Doctor 25,Male,34,MD,Pediatrics,2,13,3,312-555-1025,dr25@citycare.com,212400,2025-05-09 00:00:00
+26,Doctor 26,Female,43,MD,Pediatrics,13,13,3,312-555-1026,dr26@citycare.com,234800,2019-10-27 00:00:00
+27,Doctor 27,Female,56,MD,Surgery,26,14,3,312-555-1027,dr27@citycare.com,541000,2019-01-31 00:00:00
+28,Doctor 28,Male,41,MD,Surgery,11,14,3,312-555-1028,dr28@citycare.com,475200,2025-11-07 00:00:00
+29,Doctor 29,Female,39,MD,Emergency,8,15,4,602-555-1029,dr29@citycare.com,380800,2019-07-08 00:00:00
+30,Doctor 30,Female,48,MD,Emergency,15,15,4,602-555-1030,dr30@citycare.com,362300,2021-01-19 00:00:00
+31,Doctor 31,Female,42,MD,General Medicine,9,16,4,602-555-1031,dr31@citycare.com,237200,2025-02-08 00:00:00
+32,Doctor 32,Female,48,MD,General Medicine,16,16,4,602-555-1032,dr32@citycare.com,286200,2014-11-22 00:00:00
+33,Doctor 33,Female,40,MD,Cardiology,11,17,4,602-555-1033,dr33@citycare.com,444300,2018-02-03 00:00:00
+34,Doctor 34,Male,31,MD,Cardiology,1,17,4,602-555-1034,dr34@citycare.com,477200,2025-09-10 00:00:00
+35,Doctor 35,Male,50,MD,Dermatology,20,18,4,602-555-1035,dr35@citycare.com,424100,2012-07-01 00:00:00
+36,Doctor 36,Female,60,DO,Dermatology,28,18,4,602-555-1036,dr36@citycare.com,537600,2025-09-14 00:00:00
+37,Doctor 37,Female,57,MD,Radiology,23,19,4,602-555-1037,dr37@citycare.com,522000,2021-02-10 00:00:00
+38,Doctor 38,Female,40,MD,Radiology,9,19,4,602-555-1038,dr38@citycare.com,421400,2019-08-07 00:00:00
+39,Doctor 39,Female,30,MD,Emergency,1,20,5,619-555-1039,dr39@citycare.com,293000,2024-10-06 00:00:00
+40,Doctor 40,Male,57,MD,Emergency,24,20,5,619-555-1040,dr40@citycare.com,420400,2022-08-21 00:00:00
+41,Doctor 41,Female,62,MD,General Medicine,29,21,5,619-555-1041,dr41@citycare.com,300400,2019-01-14 00:00:00
+42,Doctor 42,Female,34,MD,General Medicine,4,21,5,619-555-1042,dr42@citycare.com,263000,2024-09-22 00:00:00
+43,Doctor 43,Male,60,MD,Pediatrics,27,22,5,619-555-1043,dr43@citycare.com,262600,2009-06-07 00:00:00
+44,Doctor 44,Female,56,DO,Pediatrics,27,22,5,619-555-1044,dr44@citycare.com,257100,2010-03-10 00:00:00
+45,Doctor 45,Female,62,MD,ENT,32,23,5,619-555-1045,dr45@citycare.com,510300,2023-07-08 00:00:00
+46,Doctor 46,Female,61,MD,ENT,27,23,5,619-555-1046,dr46@citycare.com,481000,2006-07-08 00:00:00
+47,Doctor 47,Female,53,DO,ICU,24,24,5,619-555-1047,dr47@citycare.com,494400,2010-08-06 00:00:00
+48,Doctor 48,Female,49,MD,ICU,16,24,5,619-555-1048,dr48@citycare.com,448400,2012-07-31 00:00:00

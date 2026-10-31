@@ -1,0 +1,31 @@
+MedicineID,MedicineName,Category,Manufacturer,UnitPrice,StockQuantity
+1,Medicine 1,Tablet,Novagen,1.17,284
+2,Medicine 2,Syrup,Novagen,14.58,609
+3,Medicine 3,Injection,Novagen,73.79,755
+4,Medicine 4,Injection,Curewell,22.22,968
+5,Medicine 5,Injection,Curewell,90.74,869
+6,Medicine 6,Injection,Abc Pharma,53.81,710
+7,Medicine 7,Syrup,Abc Pharma,12.53,358
+8,Medicine 8,Injection,Curewell,35.91,284
+9,Medicine 9,Tablet,Medix Labs,1.29,265
+10,Medicine 10,Tablet,Medix Labs,2.62,652
+11,Medicine 11,Tablet,Curewell,2.49,511
+12,Medicine 12,Syrup,Curewell,6.16,445
+13,Medicine 13,Injection,Abc Pharma,32.25,164
+14,Medicine 14,Syrup,Novagen,8.99,914
+15,Medicine 15,Syrup,Curewell,9.17,294
+16,Medicine 16,Tablet,Medix Labs,1.86,477
+17,Medicine 17,Tablet,Curewell,2.13,51
+18,Medicine 18,Injection,Medix Labs,95.28,911
+19,Medicine 19,Tablet,Medix Labs,3.18,834
+20,Medicine 20,Injection,Curewell,82.48,799
+21,Medicine 21,Syrup,Medix Labs,6.45,442
+22,Medicine 22,Injection,Medix Labs,41.81,867
+23,Medicine 23,Injection,Curewell,90.34,50
+24,Medicine 24,Tablet,Medix Labs,1.03,122
+25,Medicine 25,Injection,Abc Pharma,43.44,84
+26,Medicine 26,Tablet,Abc Pharma,0.73,688
+27,Medicine 27,Injection,Medix Labs,33.56,380
+28,Medicine 28,Tablet,Abc Pharma,1.32,873
+29,Medicine 29,Syrup,Curewell,10.2,571
+30,Medicine 30,Injection,Abc Pharma,115.47,548

@@ -1,0 +1,6 @@
+HospitalID,HospitalName,Branch,City,TotalBeds,ICUBeds,EmergencyAvailable,ContactNumber,Email
+1,Citycare Hospital 1,Branch 1,New York,261,23,Yes,212-555-0101,branch1@citycare.com
+2,Citycare Hospital 2,Branch 2,Los Angeles,205,25,Yes,213-555-0102,branch2@citycare.com
+3,Citycare Hospital 3,Branch 3,Chicago,208,21,Yes,312-555-0103,branch3@citycare.com
+4,Citycare Hospital 4,Branch 4,Phoenix,296,33,Yes,602-555-0104,branch4@citycare.com
+5,Citycare Hospital 5,Branch 5,San Diego,168,40,Yes,619-555-0105,branch5@citycare.com

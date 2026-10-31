@@ -1,0 +1,4 @@
+# Office / Power BI temp files
+~$*
+*.tmp
+.pbi/cache/
