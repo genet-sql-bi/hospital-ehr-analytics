@@ -10,6 +10,8 @@ Three dashboard pages answer the questions a hospital operations director asks e
 
 ## Key findings
 
+> The data is synthetic (see [Data](#data)), so these figures show the analysis method rather than a real hospital's performance. Each "so what" is the action the finding would support on real data.
+
 | Area | Finding | So what |
 |---|---|---|
 | **Access** | Patients wait **1.5×** their consultation time; follow-ups wait **2×** their 13-minute consult | Follow-up slots are too short for the queue in front of them |
@@ -47,6 +49,7 @@ Design choices: one navy color for data, one blue for the item to notice, a one-
 | Appointments | 4,845 | Prescriptions | 5,493 |
 | Admissions | 825 | Doctor schedule | 1,280 |
 | Bills | 825 | Doctors / Departments / Hospitals | 48 / 24 / 5 |
+| | | Medicines | 30 |
 
 Coverage: **Oct 2025 – Sep 2026** (12 months) for every table. Data model: 11 tables in MySQL with enforced foreign keys.
 
@@ -74,6 +77,7 @@ Two loading issues were also fixed in [`sql/02_load_data.sql`](sql/02_load_data.
 
 ```
 ├── README.md
+├── LICENSE                     MIT
 ├── data/                       11 CSVs (input to MySQL)
 ├── python/
 │   └── generate_synthetic_data.py
@@ -85,7 +89,9 @@ Two loading issues were also fixed in [`sql/02_load_data.sql`](sql/02_load_data.
 │   └── archive/02b_repair_keys.sql fix applied to the original sample
 ├── powerbi/
 │   └── HospitalPowerBIDashboard.pbix
-└── images/                     dashboard screenshots
+├── images/                     dashboard screenshots
+├── docs/                       project requirements
+└── archive/original_sample/    original 100-patient sample (before the data-quality fix)
 ```
 
 ## How to run
