@@ -4,8 +4,6 @@ End-to-end healthcare analytics project: **MySQL → SQL data-quality checks & a
 Three dashboard pages answer the questions a hospital operations director asks every month:
 *Where do patients wait? Are doctors used where demand is? Where does the money come from, and what is still unpaid?*
 
-![Patient Journey](images/patient_journey.png)
-
 ---
 
 ## Key findings
@@ -29,11 +27,20 @@ All 22 business questions, the SQL behind them and their findings are in [`sql/0
 
 ## Dashboard
 
-| Page | Question it answers | Screenshot |
-|---|---|---|
-| **Patient Journey** | Where do patients wait, which conditions fill beds, how does demand move by month? | [view](images/patient_journey.png) |
-| **Doctor Staffing & Workload** | Which doctors and departments are overloaded or under-used? | [view](images/doctor_staffing.png) |
-| **Revenue & Capacity** | What drives revenue, which payers matter, and what is still unpaid? | [view](images/revenue_capacity.png) |
+### 1. Patient Journey
+*Where do patients wait, which conditions fill beds, how does demand move by month?*
+
+![Patient Journey](images/patient_journey.png)
+
+### 2. Doctor Staffing & Workload
+*Which doctors and departments are overloaded or under-used?*
+
+![Doctor Staffing](images/doctor_staffing.png)
+
+### 3. Revenue & Capacity
+*What drives revenue, which payers matter, and what is still unpaid?*
+
+![Revenue & Capacity](images/revenue_capacity.png)
 
 Design choices: one navy color for data, one blue for the item to notice, a one-line insight under every page title, and slicers for month, hospital, department and diagnosis.
 

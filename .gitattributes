@@ -1,0 +1,3 @@
+# Count SQL in the GitHub language bar; the Python script only generates data
+*.sql linguist-detectable=true
+*.py linguist-detectable=false
