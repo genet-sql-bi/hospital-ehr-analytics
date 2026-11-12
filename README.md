@@ -18,7 +18,7 @@ Three dashboard pages answer the questions a hospital operations director asks e
 | **Staffing** | Orthopedics' 2 doctors carry **251 appointments each**, 2× the clinic average of 121; Dermatology runs at **61%** slot use | Capacity exists, but not where demand is |
 | **Inpatient** | Fracture, Covid and Cancer use **60%** of all bed days; Fracture leads on volume, Cancer on stay length (8.2 days) | Bed planning should follow these three |
 | **Quality** | **14.2%** of admissions are 30-day readmissions, led by Cancer (21%), Diabetes (20%) and Hypertension (20%) | Chronic-condition discharge follow-up is the lever |
-| **Revenue** | Room (**57%**) and Surgery (**26%**) charges make up 82% of $10.78M revenue | Revenue tracks length of stay: revenue per bed day is flat (~$2.8K) across stay lengths |
+| **Revenue** | Room (**57%**) and Surgery (**26%**) charges make up 83% of $10.78M revenue | Revenue tracks length of stay: revenue per bed day is flat (~$2.8K) across stay lengths |
 | **Cash** | **$1.60M (14.9%)** is unpaid, concentrated in the last two months and among self-pay patients (**45%** pending vs 10–17% for insurers) | Self-pay collections need an earlier payment plan |
 
 All 22 business questions, the SQL behind them and their findings are in [`sql/04_analysis_queries.sql`](sql/04_analysis_queries.sql).
