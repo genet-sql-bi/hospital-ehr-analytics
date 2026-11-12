@@ -14,7 +14,7 @@ Three dashboard pages answer the questions a hospital operations director asks e
 |---|---|---|
 | **Access** | Patients wait **1.5×** their consultation time; follow-ups wait **2×** their 13-minute consult | Follow-up slots are too short for the queue in front of them |
 | **Access** | **1 in 8** booked slots is lost (8.2% no-show, 4.0% cancelled); follow-ups no-show more (9.7% vs 6.4%) | Target reminders at follow-up visits |
-| **Capacity** | General Medicine handles **42%** of all visits and has the longest planned wait (**30 min**) | First candidate for extra clinic sessions |
+| **Capacity** | General Medicine handles **44%** of planned clinic visits and has the longest planned wait (**30 min**) | First candidate for extra clinic sessions |
 | **Staffing** | Orthopedics' 2 doctors carry **251 appointments each**, 2× the clinic average of 121; Dermatology runs at **61%** slot use | Capacity exists, but not where demand is |
 | **Inpatient** | Fracture, Covid and Cancer use **60%** of all bed days; Fracture leads on volume, Cancer on stay length (8.2 days) | Bed planning should follow these three |
 | **Quality** | **14.2%** of admissions are 30-day readmissions, led by Cancer (21%), Diabetes (20%) and Hypertension (20%) | Chronic-condition discharge follow-up is the lever |
@@ -64,7 +64,7 @@ Coverage: **Oct 2025 – Sep 2026** (12 months) for every table. Data model: 11 
 
 ## Data quality: what I found and how I fixed it
 
-The project started from a 100-patient sample. Before building any visuals, I wrote [`sql/03_data_quality_checks.sql`](sql/03_data_quality_checks.sql) (9 checks: coverage, category values, admission logic, billing reconciliation, ranges, duplicates, cross-table consistency). It found that the sample **could not support department- or hospital-level analysis**:
+The project started from a 100-patient sample. Before building any visuals, I wrote [`sql/03_data_quality_checks.sql`](sql/03_data_quality_checks.sql) (10 checks: coverage, category values, admission logic, billing reconciliation, ranges, duplicates, cross-table consistency, overlapping stays). It found that the sample **could not support department- or hospital-level analysis**:
 
 | Check | Mismatches in the original sample |
 |---|---:|
@@ -74,7 +74,7 @@ The project started from a 100-patient sample. Before building any visuals, I wr
 | Bill patient vs its admission's patient | 79 of 80 |
 | Tables covering different periods | Labs ended in April, schedules in February |
 
-**Fix:** I set a source-of-truth rule based on the organization (Department → Hospital, Doctor → Department, Encounter → Doctor, Bill → Admission), repaired the keys ([`sql/archive/02b_repair_keys.sql`](sql/archive/02b_repair_keys.sql)), and then regenerated the data with those rules enforced, scaling it to 1,000 patients over 12 months. The current dataset passes all checks with **0 mismatches**, and every bill reconciles to the cent.
+**Fix:** I set a source-of-truth rule based on the organization (Department → Hospital, Doctor → Department, Encounter → Doctor, Bill → Admission), repaired the keys ([`sql/archive/02b_repair_keys.sql`](sql/archive/02b_repair_keys.sql)), and then regenerated the data with those rules enforced, scaling it to 1,000 patients over 12 months. The current dataset passes all key and reconciliation checks with **0 mismatches**, and every bill reconciles to the cent. One known artifact remains: 13 admissions overlap a previous stay for the same patient (check 10), and the readmission analysis excludes them.
 
 Two loading issues were also fixed in [`sql/02_load_data.sql`](sql/02_load_data.sql): Windows line endings (`'Pending\r'` silently failing `= 'Pending'`), and blank values loading as `0` instead of `NULL`, which would understate average waits and stays.
 
@@ -91,7 +91,7 @@ Two loading issues were also fixed in [`sql/02_load_data.sql`](sql/02_load_data.
 ├── sql/
 │   ├── 01_create_tables.sql        schema, keys, indexes
 │   ├── 02_load_data.sql            bulk load with CRLF / NULL handling
-│   ├── 03_data_quality_checks.sql  9 checks, each with its expected result
+│   ├── 03_data_quality_checks.sql  10 checks, each with its expected result
 │   ├── 04_analysis_queries.sql     22 business questions + findings
 │   └── archive/02b_repair_keys.sql fix applied to the original sample
 ├── powerbi/
@@ -117,6 +117,7 @@ MySQL 8 · SQL (CTEs, window functions, conditional aggregation, data-quality te
 - Synthetic data: patterns reflect documented assumptions, not a real hospital.
 - Lab tests link to patients, not to a specific stay, so lab-vs-stay analysis is patient-level.
 - The dataset is a patient sample, so bed occupancy against physical bed counts is not reported.
+- 13 admissions overlap the same patient's previous stay (synthetic-data artifact, documented in check 10).
 
 ---
 

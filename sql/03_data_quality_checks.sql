@@ -168,3 +168,18 @@ SELECT 'Doctor hospital vs department hospital', COUNT(*)
 FROM Doctors doc
 JOIN Departments dep ON dep.DepartmentID = doc.DepartmentID
 WHERE doc.HospitalID <> dep.HospitalID;
+
+   -- -------------------------------------------------------------
+   -- 10. Overlapping stays
+   --     A patient should not be admitted again before the previous
+   --     stay ends. Known result: 13 (a synthetic-data artifact; the
+   --     readmission query in 04 ignores them by counting 0-30 days only).
+   -- -------------------------------------------------------------
+   SELECT COUNT(*) AS OverlappingAdmissions
+   FROM (
+       SELECT PatientID, AdmissionDate,
+              LAG(DischargeDate) OVER (PARTITION BY PatientID
+                                       ORDER BY AdmissionDate, AdmissionID) AS PrevDischarge
+       FROM Admissions
+   ) t
+   WHERE AdmissionDate < PrevDischarge;

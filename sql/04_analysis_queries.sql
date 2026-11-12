@@ -101,7 +101,7 @@ FROM Appointments
 WHERE Status = 'Completed';
 -- Finding: Patients wait 1.5x their consultation overall; follow-ups wait 1.95x their 13-min
 -- consult vs 1.2x for new patients. Emergency waits longest (43.5 min); General
--- Medicine is the longest planned-clinic wait (30.2 min) and carries 42% of visits.
+-- Medicine is the longest planned-clinic wait (30.2 min) and carries 44% of planned clinic visits.
 
 
 -- Q5b: How many booked visits are lost to no-shows and cancellations?
